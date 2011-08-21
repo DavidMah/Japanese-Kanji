@@ -6,7 +6,8 @@ function spam() {
   images = document.getElementById('images');
   input  = document.getElementById('numbers').value;
 
-  input  = input.replace('\n', ' ').split(/ +/);
+  input  = input.replace(/\n/g, '  ')
+  input  = input.split(/ +/);
   shuffle(input);
   images.innerHTML = "";
   for(var i = 0; i < input.length; i++) {
