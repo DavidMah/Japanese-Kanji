@@ -1,0 +1,28 @@
+body {
+  text-align: center;
+}
+#kanji {
+  visibility: hidden;
+}
+
+#container {
+  margin-left: auto;
+  margin-right: auto;
+  border: solid;
+  width: 800px;
+}
+
+#container table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#image {
+  margin-bottom: 50px;
+  margin-left: 45%;
+  margin-right: 45%;
+}
+
+button {
+  font-size: 30px;
+}
