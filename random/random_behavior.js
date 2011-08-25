@@ -11,11 +11,14 @@ function spam() {
   shuffle(input);
   images.innerHTML = "";
   for(var i = 0; i < input.length; i++) {
-    im     = document.createElement('img');
-    im.src = "../image/"+ input[i] +".gif";
+    link      = document.createElement('a');
+    link.href = "../final/"+ input[i] +".html";
+    im        = document.createElement('img');
+    im.src    = "../image/"+ input[i] +".gif";
     im.style.width  = "80px";
     im.style.height = "80px";
-    images.appendChild(im);
+    link.appendChild(im);
+    images.appendChild(link);
   }
 }
 
