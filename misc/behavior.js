@@ -1,6 +1,7 @@
 //This isn't really used yet!
 window.onload = function() {
   document.getElementById('go').onclick = gotoGiven;
+  document.onkeyup = keyPressed;
 }
 
 function gotoGiven() {
@@ -17,7 +18,13 @@ function gotoLeft() {
   gotoPage(page);
 }
 function gotoPage(page) {
-  url = page + '.html'
-  alert(url)
-  //send to URL
+  url = page + '.html';
+  window.location = url;
+}
+function keyPressed(event) {
+  if(event.keyCode == 37) {
+    gotoLeft();
+  } else if (event.keyCode == 39) {
+    gotoRight();
+  }
 }
