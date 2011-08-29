@@ -1,25 +1,50 @@
 window.onload = function() {
-  document.getElementById('create').onclick = spam;
+  document.getElementById('create').onclick = fillImages;
 }
 
-function spam() {
-  images = document.getElementById('images');
-  input  = document.getElementById('numbers').value;
+function fillImages() {
+  var imagesElement = document.getElementById('images');
+  var input         = document.getElementById('numbers').value;
 
   input  = input.replace(/\n/g, '  ')
   input  = input.split(/ +/);
   shuffle(input);
-  images.innerHTML = "";
+  imagesElement.innerHTML = "";
+  var ims = []
   for(var i = 0; i < input.length; i++) {
-    link      = document.createElement('a');
-    link.href = "../final/"+ input[i] +".html";
-    im        = document.createElement('img');
-    im.src    = "../image/"+ input[i] +".gif";
-    im.style.width  = "80px";
-    im.style.height = "80px";
-    link.appendChild(im);
-    images.appendChild(link);
+    var image = createImage(input[i]);
+    imagesElement.appendChild(image);
+    ims.push(image);
   }
+
+  for(var i = 0; i < ims.length; i++) {
+   // ims[i].onclick = function() { spawnKanjiModal(ims[i])}
+  }
+}
+
+function spawnKanjiModal(image) {
+  var modal = document.createElement('iframe');
+  modal.className = 'kanji_modal';
+  modal.innerHTML = "here I am";
+
+  modal.style.top  = (image.offsetTop - 250) +"px";
+  modal.style.left = (image.offsetLeft - 50) +"px";
+
+  document.body.appendChild(modal);
+}
+
+function createImage(index) {
+  var link     = document.createElement('a');
+  //link.href    = "#";
+  link.id      = 'kanji_' + index
+  link.href    = "../final/"+ index +".html";
+
+  var im       = document.createElement('img');
+  im.src       = "../image/"+ index +".gif";
+  im.className = 'image';
+
+  link.appendChild(im);
+  return link;
 }
 
 function shuffle(list) {
