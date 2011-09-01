@@ -10,6 +10,7 @@ function fillImages() {
   input  = input.split(/ +/);
   shuffle(input);
   imagesElement.innerHTML = "";
+  document.getElementById('numbers').value = input.join(" ");
   var ims = []
   for(var i = 0; i < input.length; i++) {
     var image = createImage(input[i]);
@@ -34,17 +35,26 @@ function spawnKanjiModal(image) {
 }
 
 function createImage(index) {
-  var link     = document.createElement('a');
-  //link.href    = "#";
-  link.id      = 'kanji_' + index
-  link.href    = "../final/"+ index +".html";
+  var wrapper    = document.createElement('div');
+  wrapper.className = 'image_wrapper';
+
+  var link       = document.createElement('a');
+  //link.href      = "#";
+  link.id        = 'kanji_' + index
+  link.href      = "../final/"+ index +".html";
 
   var im       = document.createElement('img');
   im.src       = "../image/"+ index +".gif";
   im.className = 'image';
 
+  var id       = document.createElement('div');
+  id.innerHTML = index
+  id.className = "image_label"
+
+  wrapper.appendChild(link);
   link.appendChild(im);
-  return link;
+  link.appendChild(id);
+  return wrapper;
 }
 
 function shuffle(list) {
