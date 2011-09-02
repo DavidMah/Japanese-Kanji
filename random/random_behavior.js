@@ -1,5 +1,8 @@
 window.onload = function() {
-  document.getElementById('create').onclick = fillImages;
+  document.getElementById('create'  ).onclick = fillImages;
+  document.getElementById('1..100'  ).onclick = function() { autofillInput(1, 100)};
+  document.getElementById('101..200').onclick = function() { autofillInput(101, 200)};
+  document.getElementById('201..300').onclick = function() { autofillInput(201, 300)};
 }
 
 function fillImages() {
@@ -41,9 +44,9 @@ function createImage(index) {
   wrapper.className = 'image_wrapper';
 
   var link       = document.createElement('a');
-  link.href      = "#";
+  //link.href      = "#";
   link.id        = 'kanji_' + index
-  //link.href      = "../final/"+ index +".html";
+  link.href      = "../final/"+ index +".html";
 
   var im       = document.createElement('img');
   im.src       = "../image/"+ index +".gif";
@@ -67,4 +70,13 @@ function shuffle(list) {
     list[one] = list[two];
     list[two] = temp;
   }
+}
+
+function autofillInput(lower, upper) {
+  var textbox = document.getElementById('numbers');
+  textbox.innerHTML = "";
+  for(var i = lower; i <= upper; i++) {
+    textbox.innerHTML += i +" ";
+  }
+  //fillImages();
 }
