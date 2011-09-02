@@ -19,29 +19,31 @@ function fillImages() {
   }
 
   for(var i = 0; i < ims.length; i++) {
-   // ims[i].onclick = function() { spawnKanjiModal(ims[i])}
+   // ims[i].onclick = spawnKanjiModal
   }
 }
 
-function spawnKanjiModal(image) {
+function spawnKanjiModal() {
+  index = parseInt(this.id.substring(6))
   var modal = document.createElement('iframe');
   modal.className = 'kanji_modal';
   modal.innerHTML = "here I am";
 
-  modal.style.top  = (image.offsetTop - 250) +"px";
-  modal.style.left = (image.offsetLeft - 50) +"px";
+  modal.style.top  = (this.offsetTop - 250) +"px";
+  modal.style.left = (this.offsetLeft - 50) +"px";
 
   document.body.appendChild(modal);
 }
 
 function createImage(index) {
   var wrapper    = document.createElement('div');
+  wrapper.id     = "wrapper_"+ index;
   wrapper.className = 'image_wrapper';
 
   var link       = document.createElement('a');
-  //link.href      = "#";
+  link.href      = "#";
   link.id        = 'kanji_' + index
-  link.href      = "../final/"+ index +".html";
+  //link.href      = "../final/"+ index +".html";
 
   var im       = document.createElement('img');
   im.src       = "../image/"+ index +".gif";
