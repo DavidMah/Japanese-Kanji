@@ -1,3 +1,0 @@
-module SpecHelper
-  ROOT = ".."
-end
