@@ -1,4 +1,4 @@
-//This isn't really used yet!
+
 window.onload = function() {
   document.getElementById('go').onclick = gotoGiven;
   document.onkeyup = keyPressed;
