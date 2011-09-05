@@ -22,7 +22,7 @@ function fillImages() {
   }
 
   for(var i = 0; i < ims.length; i++) {
-   // ims[i].onclick = spawnKanjiModal
+    ims[i].onclick = spawnKanjiModal
   }
 }
 
@@ -44,9 +44,9 @@ function createImage(index) {
   wrapper.className = 'image_wrapper';
 
   var link       = document.createElement('a');
-  //link.href      = "#";
+  link.href      = "#";
+  //link.href      = "../final/"+ index +".html";
   link.id        = 'kanji_' + index
-  link.href      = "../final/"+ index +".html";
 
   var im       = document.createElement('img');
   im.src       = "../image/"+ index +".gif";
