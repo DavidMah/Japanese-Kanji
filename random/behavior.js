@@ -1,16 +1,8 @@
 (function() {
-  var autofillInput, buildImage, createImage, fillImages, prepareKanjiData, shuffle, spawnKanjiModal;
+  var autofill, autofillInput, buildImage, clear, createImage, fillImages, prepareKanjiData, shuffle, spawnKanjiModal;
   window.onload = function() {
     $('#create')[0].onclick = fillImages;
-    $('#1to100')[0].onclick = function() {
-      return autofillInput(1, 100);
-    };
-    $('#101to200')[0].onclick = function() {
-      return autofillInput(101, 200);
-    };
-    $('#201to300')[0].onclick = function() {
-      return autofillInput(201, 300);
-    };
+    $('#autofill')[0].onclick = autofillInput;
     return prepareKanjiData();
   };
   fillImages = function() {
@@ -82,10 +74,18 @@
     }
     return _results;
   };
-  autofillInput = function(lower, upper) {
+  clear = function() {
+    return $('#numbers')[0].innerHTML = "";
+  };
+  autofillInput = function() {
+    var lower, upper;
+    lower = $("#lowerbound")[0].value;
+    upper = $("#upperbound")[0].value;
+    return autofill(lower, upper);
+  };
+  autofill = function(lower, upper) {
     var index, textbox, _results;
     textbox = $('#numbers')[0];
-    textbox.innerHTML = "";
     _results = [];
     for (index = lower; lower <= upper ? index <= upper : index >= upper; lower <= upper ? index++ : index--) {
       _results.push(textbox.innerHTML += "" + index + " ");

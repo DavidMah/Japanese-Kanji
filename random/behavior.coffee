@@ -1,8 +1,6 @@
 window.onload = () ->
   $('#create'  )[0].onclick = fillImages
-  $('#1to100'  )[0].onclick = () -> autofillInput(1, 100)
-  $('#101to200')[0].onclick = () -> autofillInput(101, 200)
-  $('#201to300')[0].onclick = () -> autofillInput(201, 300)
+  $('#autofill')[0].onclick = autofillInput
   prepareKanjiData()
 
 
@@ -77,9 +75,16 @@ shuffle = (list) ->
     list[two] = temp
 
 
-autofillInput = (lower, upper) ->
+clear = () ->
+  $('#numbers')[0].innerHTML = ""
+
+autofillInput = () ->
+  lower = $("#lowerbound")[0].value
+  upper = $("#upperbound")[0].value
+  autofill(lower, upper)
+
+autofill = (lower, upper) ->
   textbox = $('#numbers')[0]
-  textbox.innerHTML = ""
   for index in [lower..upper]
     textbox.innerHTML += "#{index} "
 
