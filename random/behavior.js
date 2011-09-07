@@ -27,14 +27,14 @@
     var url;
     url = "../image/" + index + ".gif";
     return $.ajax({
-      url: url,
+      url: image_url,
       type: 'HEAD',
       success: function() {
-        return buildImage(index);
+        return buildImage(index, image_url);
       }
     });
   };
-  buildImage = function(index) {
+  buildImage = function(index, image_url) {
     var im, link, wrapper;
     wrapper = document.createElement('div');
     wrapper.id = "wrapper_" + index;
@@ -43,21 +43,21 @@
     link.id = "kanji_" + index;
     link.href = "#";
     im = document.createElement('img');
-    im.src = "../image/" + index + ".gif";
+    im.src = image_url;
     im.className = "image";
     wrapper.appendChild(link);
     link.appendChild(im);
     wrapper.onmouseover = function() {
-      return fillKanjiModal(index, this);
+      return fillKanjiModal(index);
     };
     wrapper.onmouseout = hideKanjiModal;
     return $('#images')[0].appendChild(wrapper);
   };
-  fillKanjiModal = function(index, wrapper) {
+  fillKanjiModal = function(index) {
     var english, kanji_data, kun_reading, modal, on_reading;
     modal = $('#kanji_modal');
     modal.css('visibility', 'visible');
-    kanji_data = window.kanji[index];
+    kanji_data = window.kanji[index - 1];
     index = "Index: " + kanji_data.index;
     english = "English:     " + (kanji_data.english.join(", "));
     on_reading = "On Reading:  " + (kanji_data.on.join(", "));
