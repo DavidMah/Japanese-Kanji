@@ -36,7 +36,7 @@ fillImages = () ->
 # Given a kanji index, appends the image for that Kanji to the grid if the image exists
 createImage = (index) ->
   # Make sure file exists
-  url = "../image/#{index}.gif"
+  image_url = "../image/#{index}.gif"
   $.ajax({
     url     : image_url,
     type    : 'HEAD',

@@ -24,8 +24,8 @@
     return document.getElementById('numbers').value = input.join(" ");
   };
   createImage = function(index) {
-    var url;
-    url = "../image/" + index + ".gif";
+    var image_url;
+    image_url = "../image/" + index + ".gif";
     return $.ajax({
       url: image_url,
       type: 'HEAD',
