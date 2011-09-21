@@ -70,9 +70,9 @@ fillKanjiModal = (index) ->
   kanji_data = window.kanji[index - 1]
 
   index       = "Index: #{kanji_data.index}"
-  english     = "English:     #{kanji_data.english.join(", ")}"
-  on_reading  = "On Reading:  #{kanji_data.on.join(", ")}"
-  kun_reading = "Kun Reading: #{kanji_data.kun.join(", ")}"
+  english     = "English:     #{kanji_data.english}"
+  on_reading  = "On Reading:  #{kanji_data.on}"
+  kun_reading = "Kun Reading: #{kanji_data.kun}"
 
   modal[0].innerHTML  = "#{index}<br />#{on_reading}<br />#{kun_reading}<br />#{english}"
 
