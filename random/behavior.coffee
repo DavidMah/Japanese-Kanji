@@ -11,7 +11,7 @@ MODALWIDTH  = 300
 $(document).ready( () ->
   window.element_data = []
   $('#create'  )[0].onclick = extractInput
-  $('#shuffle' )[0].onclick = shuffle
+  $('#shuffle' )[0].onclick = shuffleGrid
   $('#autofill')[0].onclick = autofillInput
   $(document).mousemove(reactToMouseMove)
   prepareKanjiData()
@@ -28,15 +28,20 @@ extractInput = () ->
   input = input.split(///\x20+///) # All Whitespace
 
   imagesElement.innerHTML = ""
+  window.element_data     = []
   for id in input
     createImage(id)
     window.element_data[id] = [id]
+
+shuffleGrid = () ->
+  fillGrid(shuffle())
 
 shuffle = () ->
   elements = []
   for num in window.element_Data
     elements.push num if num
   scramble(elements)
+  elements
 
 fillGrid = (elements) ->
   imagesElement.innerHTML = ""

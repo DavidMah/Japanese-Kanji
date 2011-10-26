@@ -1,11 +1,11 @@
 (function() {
-  var MODALHEIGHT, MODALWIDTH, autofill, autofillInput, buildImage, clear, createImage, extractInput, fillGrid, fillKanjiModal, hideKanjiModal, prepareKanjiData, reactToMouseMove, scramble, shuffle;
+  var MODALHEIGHT, MODALWIDTH, autofill, autofillInput, buildImage, clear, createImage, extractInput, fillGrid, fillKanjiModal, hideKanjiModal, prepareKanjiData, reactToMouseMove, scramble, shuffle, shuffleGrid;
   MODALHEIGHT = 100;
   MODALWIDTH = 300;
   $(document).ready(function() {
     window.element_data = [];
     $('#create')[0].onclick = extractInput;
-    $('#shuffle')[0].onclick = shuffle;
+    $('#shuffle')[0].onclick = shuffleGrid;
     $('#autofill')[0].onclick = autofillInput;
     $(document).mousemove(reactToMouseMove);
     return prepareKanjiData();
@@ -17,6 +17,7 @@
     input = input.replace(/\n/g, '  ');
     input = input.split(/\x20+/);
     imagesElement.innerHTML = "";
+    window.element_data = [];
     _results = [];
     for (_i = 0, _len = input.length; _i < _len; _i++) {
       id = input[_i];
@@ -24,6 +25,9 @@
       _results.push(window.element_data[id] = [id]);
     }
     return _results;
+  };
+  shuffleGrid = function() {
+    return fillGrid(shuffle());
   };
   shuffle = function() {
     var elements, num, _i, _len, _ref;
@@ -35,7 +39,8 @@
         elements.push(num);
       }
     }
-    return scramble(elements);
+    scramble(elements);
+    return elements;
   };
   fillGrid = function(elements) {
     var id, _i, _len, _results;
