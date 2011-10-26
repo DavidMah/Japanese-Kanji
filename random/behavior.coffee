@@ -31,8 +31,6 @@ fillImages = () ->
   for id in input
     image = createImage(id)
 
-  document.getElementById('numbers').value = input.join(" ")
-
 # Given a kanji index, appends the image for that Kanji to the grid if the image exists
 createImage = (index) ->
   # Make sure file exists
