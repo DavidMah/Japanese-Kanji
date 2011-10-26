@@ -1,8 +1,9 @@
 (function() {
-  var MODALHEIGHT, MODALWIDTH, autofill, autofillInput, buildImage, clear, createImage, extractInput, fillKanjiModal, hideKanjiModal, prepareKanjiData, reactToMouseMove, scramble, shuffle;
+  var MODALHEIGHT, MODALWIDTH, autofill, autofillInput, buildImage, clear, createImage, extractInput, fillGrid, fillKanjiModal, hideKanjiModal, prepareKanjiData, reactToMouseMove, scramble, shuffle;
   MODALHEIGHT = 100;
   MODALWIDTH = 300;
   $(document).ready(function() {
+    window.element_data = [];
     $('#create')[0].onclick = extractInput;
     $('#shuffle')[0].onclick = shuffle;
     $('#autofill')[0].onclick = autofillInput;
@@ -10,23 +11,22 @@
     return prepareKanjiData();
   });
   extractInput = function() {
-    var id, image, imagesElement, ims, input, _i, _len, _results;
+    var id, imagesElement, input, _i, _len, _results;
     imagesElement = $('#images')[0];
     input = $('#numbers')[0].value;
     input = input.replace(/\n/g, '  ');
     input = input.split(/\x20+/);
     imagesElement.innerHTML = "";
-    ims = [];
     _results = [];
     for (_i = 0, _len = input.length; _i < _len; _i++) {
       id = input[_i];
-      _results.push(image = createImage(id));
+      createImage(id);
+      _results.push(window.element_data[id] = [id]);
     }
     return _results;
   };
   shuffle = function() {
     var elements, num, _i, _len, _ref;
-    alert("poop");
     elements = [];
     _ref = window.element_Data;
     for (_i = 0, _len = _ref.length; _i < _len; _i++) {
@@ -36,6 +36,16 @@
       }
     }
     return scramble(elements);
+  };
+  fillGrid = function(elements) {
+    var id, _i, _len, _results;
+    imagesElement.innerHTML = "";
+    _results = [];
+    for (_i = 0, _len = elements.length; _i < _len; _i++) {
+      id = elements[_i];
+      _results.push(createImage(id));
+    }
+    return _results;
   };
   createImage = function(index) {
     var image_url;

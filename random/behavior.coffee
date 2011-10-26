@@ -9,6 +9,7 @@ MODALHEIGHT = 100
 MODALWIDTH  = 300
 
 $(document).ready( () ->
+  window.element_data = []
   $('#create'  )[0].onclick = extractInput
   $('#shuffle' )[0].onclick = shuffle
   $('#autofill')[0].onclick = autofillInput
@@ -27,17 +28,20 @@ extractInput = () ->
   input = input.split(///\x20+///) # All Whitespace
 
   imagesElement.innerHTML = ""
-  ims = []
   for id in input
-    image = createImage(id)
+    createImage(id)
+    window.element_data[id] = [id]
 
 shuffle = () ->
-  alert("poop")
   elements = []
   for num in window.element_Data
     elements.push num if num
   scramble(elements)
 
+fillGrid = (elements) ->
+  imagesElement.innerHTML = ""
+  for id in elements
+    createImage(id)
 
 # Given a kanji index, appends the image for that Kanji to the grid if the image exists
 createImage = (index) ->
