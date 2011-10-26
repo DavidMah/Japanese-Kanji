@@ -1,27 +1,57 @@
 (function() {
-  var MODALHEIGHT, MODALWIDTH, autofill, autofillInput, buildImage, clear, createImage, fillImages, fillKanjiModal, hideKanjiModal, prepareKanjiData, reactToMouseMove, shuffle;
+  var IMAGES_ELEMENT, MODALHEIGHT, MODALWIDTH, autofill, autofillInput, buildImage, clear, createImage, extractInput, fillGrid, fillKanjiModal, hideKanjiModal, prepareKanjiData, reactToMouseMove, removeKanji, scramble, shuffle, shuffleGrid;
   MODALHEIGHT = 100;
   MODALWIDTH = 300;
+  IMAGES_ELEMENT = null;
   $(document).ready(function() {
-    $('#create')[0].onclick = fillImages;
+    IMAGES_ELEMENT = $('#images')[0];
+    window.element_data = [];
+    $('#create')[0].onclick = extractInput;
+    $('#shuffle')[0].onclick = shuffleGrid;
     $('#autofill')[0].onclick = autofillInput;
     $(document).mousemove(reactToMouseMove);
     return prepareKanjiData();
   });
-  fillImages = function() {
-    var id, image, imagesElement, ims, input, _i, _len;
-    imagesElement = $('#images')[0];
+  extractInput = function() {
+    var id, input, _i, _len, _results;
     input = $('#numbers')[0].value;
     input = input.replace(/\n/g, '  ');
     input = input.split(/\x20+/);
-    shuffle(input);
-    imagesElement.innerHTML = "";
-    ims = [];
+    IMAGES_ELEMENT.innerHTML = "";
+    window.element_data = [];
+    _results = [];
     for (_i = 0, _len = input.length; _i < _len; _i++) {
       id = input[_i];
-      image = createImage(id);
+      createImage(id);
+      _results.push(window.element_data[id] = [id]);
     }
-    return document.getElementById('numbers').value = input.join(" ");
+    return _results;
+  };
+  shuffleGrid = function() {
+    return fillGrid(shuffle());
+  };
+  shuffle = function() {
+    var elements, num, _i, _len, _ref;
+    elements = [];
+    _ref = window.element_data;
+    for (_i = 0, _len = _ref.length; _i < _len; _i++) {
+      num = _ref[_i];
+      if (num) {
+        elements.push(num);
+      }
+    }
+    scramble(elements);
+    return elements;
+  };
+  fillGrid = function(elements) {
+    var id, _i, _len, _results;
+    IMAGES_ELEMENT.innerHTML = "";
+    _results = [];
+    for (_i = 0, _len = elements.length; _i < _len; _i++) {
+      id = elements[_i];
+      _results.push(createImage(id));
+    }
+    return _results;
   };
   createImage = function(index) {
     var image_url;
@@ -51,7 +81,16 @@
       return fillKanjiModal(index);
     };
     wrapper.onmouseout = hideKanjiModal;
-    return $('#images')[0].appendChild(wrapper);
+    wrapper.onclick = function() {
+      return removeKanji(index, wrapper);
+    };
+    return IMAGES_ELEMENT.appendChild(wrapper);
+  };
+  removeKanji = function(index, element) {
+    element.onmouseover = void 0;
+    element.innerHTML = "";
+    hideKanjiModal();
+    return window.element_data[index] = void 0;
   };
   fillKanjiModal = function(index) {
     var english, kanji_data, kun_reading, modal, on_reading;
@@ -67,7 +106,7 @@
   hideKanjiModal = function() {
     return $('#kanji_modal').css('visibility', 'hidden');
   };
-  shuffle = function(list) {
+  scramble = function(list) {
     var i, one, temp, two, _ref, _results;
     _results = [];
     for (i = 1, _ref = list.length * 20; 1 <= _ref ? i <= _ref : i >= _ref; 1 <= _ref ? i++ : i--) {

@@ -5,11 +5,14 @@
 # random.html can spawn a grid of kanji images from what indexes are input into the text box.
 # Mouseovers to the grid of kanji produce a small window with definition information.
 
-MODALHEIGHT = 100
-MODALWIDTH  = 300
-
+MODALHEIGHT    = 100
+MODALWIDTH     = 300
+IMAGES_ELEMENT = null
 $(document).ready( () ->
-  $('#create'  )[0].onclick = fillImages
+  IMAGES_ELEMENT = $('#images')[0]
+  window.element_data = []
+  $('#create'  )[0].onclick = extractInput
+  $('#shuffle' )[0].onclick = shuffleGrid
   $('#autofill')[0].onclick = autofillInput
   $(document).mousemove(reactToMouseMove)
   prepareKanjiData()
@@ -18,20 +21,32 @@ $(document).ready( () ->
 ## Visual stuff, like populating the list or generating popup modals
 
 # Takes all of the values in the text box and spawns the grid of kanji
-fillImages = () ->
-  imagesElement = $('#images' )[0]
+extractInput = () ->
   input         = $('#numbers')[0].value
 
   input = input.replace(/\n/g, '  ')
   input = input.split(///\x20+///) # All Whitespace
-  shuffle(input)
 
-  imagesElement.innerHTML = ""
-  ims = []
+  IMAGES_ELEMENT.innerHTML = ""
+  window.element_data     = []
   for id in input
-    image = createImage(id)
+    createImage(id)
+    window.element_data[id] = [id]
 
-  document.getElementById('numbers').value = input.join(" ")
+shuffleGrid = () ->
+  fillGrid(shuffle())
+
+shuffle = () ->
+  elements = []
+  for num in window.element_data
+    elements.push num if num
+  scramble(elements)
+  elements
+
+fillGrid = (elements) ->
+  IMAGES_ELEMENT.innerHTML = ""
+  for id in elements
+    createImage(id)
 
 # Given a kanji index, appends the image for that Kanji to the grid if the image exists
 createImage = (index) ->
@@ -61,7 +76,15 @@ buildImage = (index, image_url) ->
   link.appendChild(im)
   wrapper.onmouseover = () -> fillKanjiModal(index)
   wrapper.onmouseout  = hideKanjiModal
-  $('#images')[0].appendChild(wrapper)
+  wrapper.onclick     = () -> removeKanji(index, wrapper)
+  IMAGES_ELEMENT.appendChild(wrapper)
+
+# Sets up kanji element to be click-removeable
+removeKanji = (index, element) ->
+  element.onmouseover = undefined
+  element.innerHTML   = ""
+  hideKanjiModal()
+  window.element_data[index] = undefined
 
 # Fills the modal window with definition information given an index of Kanji Element
 fillKanjiModal = (index) ->
@@ -80,7 +103,7 @@ hideKanjiModal = () ->
   $('#kanji_modal').css('visibility', 'hidden')
 
 # Mixes up the input values of the text box
-shuffle = (list) ->
+scramble = (list) ->
   for i in [1..list.length*20]
     one = parseInt(Math.random() * list.length)
     two = parseInt(Math.random() * list.length)
@@ -102,7 +125,7 @@ autofill = (lower, upper) ->
   for index in [lower..upper]
     textbox.value += "#{index} "
 
-## Mouse shit
+## Mouse
 # Store x and y mouse values into window.mouseX and mouseY
 # Move modal to follow mouse position
 reactToMouseMove = (event) ->
