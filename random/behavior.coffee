@@ -32,6 +32,7 @@ extractInput = () ->
     image = createImage(id)
 
 shuffle = () ->
+  alert("poop")
   elements = []
   for num in window.element_Data
     elements.push num if num
