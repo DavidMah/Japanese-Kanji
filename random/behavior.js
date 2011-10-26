@@ -1,27 +1,41 @@
 (function() {
-  var MODALHEIGHT, MODALWIDTH, autofill, autofillInput, buildImage, clear, createImage, fillImages, fillKanjiModal, hideKanjiModal, prepareKanjiData, reactToMouseMove, shuffle;
+  var MODALHEIGHT, MODALWIDTH, autofill, autofillInput, buildImage, clear, createImage, extractInput, fillKanjiModal, hideKanjiModal, prepareKanjiData, reactToMouseMove, scramble, shuffle;
   MODALHEIGHT = 100;
   MODALWIDTH = 300;
   $(document).ready(function() {
-    $('#create')[0].onclick = fillImages;
+    $('#create')[0].onclick = extractInput;
+    $('#shuffle')[0].onclick = shuffle;
     $('#autofill')[0].onclick = autofillInput;
     $(document).mousemove(reactToMouseMove);
     return prepareKanjiData();
   });
-  fillImages = function() {
-    var id, image, imagesElement, ims, input, _i, _len;
+  extractInput = function() {
+    var id, image, imagesElement, ims, input, _i, _len, _results;
     imagesElement = $('#images')[0];
     input = $('#numbers')[0].value;
     input = input.replace(/\n/g, '  ');
     input = input.split(/\x20+/);
-    shuffle(input);
     imagesElement.innerHTML = "";
     ims = [];
+    _results = [];
     for (_i = 0, _len = input.length; _i < _len; _i++) {
       id = input[_i];
-      image = createImage(id);
+      _results.push(image = createImage(id));
     }
-    return document.getElementById('numbers').value = input.join(" ");
+    return _results;
+  };
+  shuffle = function() {
+    var elements, num, _i, _len, _ref;
+    alert("poop");
+    elements = [];
+    _ref = window.element_Data;
+    for (_i = 0, _len = _ref.length; _i < _len; _i++) {
+      num = _ref[_i];
+      if (num) {
+        elements.push(num);
+      }
+    }
+    return scramble(elements);
   };
   createImage = function(index) {
     var image_url;
@@ -67,7 +81,7 @@
   hideKanjiModal = function() {
     return $('#kanji_modal').css('visibility', 'hidden');
   };
-  shuffle = function(list) {
+  scramble = function(list) {
     var i, one, temp, two, _ref, _results;
     _results = [];
     for (i = 1, _ref = list.length * 20; 1 <= _ref ? i <= _ref : i >= _ref; 1 <= _ref ? i++ : i--) {
