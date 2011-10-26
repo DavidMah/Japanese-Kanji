@@ -9,7 +9,8 @@ MODALHEIGHT = 100
 MODALWIDTH  = 300
 
 $(document).ready( () ->
-  $('#create'  )[0].onclick = fillImages
+  $('#create'  )[0].onclick = extractInput
+  $('#shuffle' )[0].onclick = shuffle
   $('#autofill')[0].onclick = autofillInput
   $(document).mousemove(reactToMouseMove)
   prepareKanjiData()
@@ -18,18 +19,24 @@ $(document).ready( () ->
 ## Visual stuff, like populating the list or generating popup modals
 
 # Takes all of the values in the text box and spawns the grid of kanji
-fillImages = () ->
+extractInput = () ->
   imagesElement = $('#images' )[0]
   input         = $('#numbers')[0].value
 
   input = input.replace(/\n/g, '  ')
   input = input.split(///\x20+///) # All Whitespace
-  shuffle(input)
 
   imagesElement.innerHTML = ""
   ims = []
   for id in input
     image = createImage(id)
+
+shuffle = () ->
+  elements = []
+  for num in window.element_Data
+    elements.push num if num
+  scramble(elements)
+
 
 # Given a kanji index, appends the image for that Kanji to the grid if the image exists
 createImage = (index) ->
@@ -78,7 +85,7 @@ hideKanjiModal = () ->
   $('#kanji_modal').css('visibility', 'hidden')
 
 # Mixes up the input values of the text box
-shuffle = (list) ->
+scramble = (list) ->
   for i in [1..list.length*20]
     one = parseInt(Math.random() * list.length)
     two = parseInt(Math.random() * list.length)
