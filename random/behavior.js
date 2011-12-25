@@ -1,16 +1,16 @@
 (function() {
-  var IMAGES_ELEMENT, MODALHEIGHT, MODALWIDTH, autofill, autofillInput, buildImage, clear, createImage, extractInput, fillGrid, fillKanjiModal, hideKanjiModal, prepareKanjiData, reactToMouseMove, removeKanji, scramble, shuffle, shuffleGrid;
+  var IMAGES_ELEMENT, MODALHEIGHT, MODALWIDTH, autofill, autofillInput, buildImage, buildKanji, clear, createImage, extractInput, fillGrid, fillKanjiModal, hideKanjiModal, prepareKanjiData, reactToMouseMove, removeKanji, scramble, shuffle, shuffleGrid;
   MODALHEIGHT = 100;
   MODALWIDTH = 300;
   IMAGES_ELEMENT = null;
   $(document).ready(function() {
     IMAGES_ELEMENT = $('#images')[0];
+    prepareKanjiData();
     window.element_data = [];
     $('#create')[0].onclick = extractInput;
     $('#shuffle')[0].onclick = shuffleGrid;
     $('#autofill')[0].onclick = autofillInput;
-    $(document).mousemove(reactToMouseMove);
-    return prepareKanjiData();
+    return $(document).mousemove(reactToMouseMove);
   });
   extractInput = function() {
     var id, input, _i, _len, _results;
@@ -22,8 +22,7 @@
     _results = [];
     for (_i = 0, _len = input.length; _i < _len; _i++) {
       id = input[_i];
-      createImage(id);
-      _results.push(window.element_data[id] = [id]);
+      _results.push(id !== "" ? (buildKanji(id), window.element_data[id] = [id]) : void 0);
     }
     return _results;
   };
@@ -49,34 +48,47 @@
     _results = [];
     for (_i = 0, _len = elements.length; _i < _len; _i++) {
       id = elements[_i];
-      _results.push(createImage(id));
+      _results.push(buildKanji(id));
     }
     return _results;
   };
-  createImage = function(index) {
+  createImage = function(index, parent) {
     var image_url;
     image_url = "../image/" + index + ".gif";
     return $.ajax({
       url: image_url,
       type: 'HEAD',
       success: function() {
-        return buildImage(index, image_url);
+        return buildImage(index, image_url, parent);
       }
     });
   };
-  buildImage = function(index, image_url) {
-    var im, link, wrapper;
+  buildImage = function(index, image_url, parent) {
+    var kanji;
+    kanji = document.createElement('img');
+    kanji.src = image_url;
+    kanji.className = "image";
+    return parent.appendChild(kanji);
+  };
+  buildKanji = function(index) {
+    var kanji, kanji_data, link, symbol, wrapper;
+    console.log("we go " + index);
     wrapper = document.createElement('div');
     wrapper.id = "wrapper_" + index;
     wrapper.className = "image_wrapper";
     link = document.createElement('a');
     link.id = "kanji_" + index;
     link.href = "#";
-    im = document.createElement('img');
-    im.src = image_url;
-    im.className = "image";
+    kanji_data = window.kanji[index - 1];
+    symbol = kanji_data['kanji'];
+    if (symbol !== void 0) {
+      kanji = document.createElement('span');
+      kanji.innerHTML = symbol;
+      link.appendChild(kanji);
+    } else {
+      createImage(index, link);
+    }
     wrapper.appendChild(link);
-    link.appendChild(im);
     wrapper.onmouseover = function() {
       return fillKanjiModal(index);
     };
@@ -132,7 +144,7 @@
     textbox = $('#numbers')[0];
     _results = [];
     for (index = lower; lower <= upper ? index <= upper : index >= upper; lower <= upper ? index++ : index--) {
-      _results.push(textbox.value += "" + index + " ");
+      _results.push(textbox.value += " " + index + " ");
     }
     return _results;
   };
@@ -146,7 +158,7 @@
   };
   prepareKanjiData = function() {
     return $.get('../data/kanji_json.txt', function(data) {
-      return window.kanji = eval(data);
+      return window.kanji = JSON.parse(data);
     });
   };
 }).call(this);

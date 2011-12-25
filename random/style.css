@@ -21,6 +21,11 @@
   float  : left;
 }
 
+.image_wrapper a {
+  text-decoration : none;
+  color           : Blue;
+}
+
 .image {
   width  : 80px;
   height : 80px;
