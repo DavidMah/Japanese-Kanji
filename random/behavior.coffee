@@ -8,14 +8,15 @@
 MODALHEIGHT    = 100
 MODALWIDTH     = 300
 IMAGES_ELEMENT = null
+
 $(document).ready( () ->
   IMAGES_ELEMENT = $('#images')[0]
-  window.element_data = []
+  prepareKanjiData()
+  window.element_data       = []
   $('#create'  )[0].onclick = extractInput
   $('#shuffle' )[0].onclick = shuffleGrid
   $('#autofill')[0].onclick = autofillInput
   $(document).mousemove(reactToMouseMove)
-  prepareKanjiData()
 )
 
 ## Visual stuff, like populating the list or generating popup modals
@@ -28,10 +29,11 @@ extractInput = () ->
   input = input.split(///\x20+///) # All Whitespace
 
   IMAGES_ELEMENT.innerHTML = ""
-  window.element_data     = []
+  window.element_data      = []
   for id in input
-    createImage(id)
-    window.element_data[id] = [id]
+    if id != ""
+      buildKanji(id)
+      window.element_data[id] = [id]
 
 shuffleGrid = () ->
   fillGrid(shuffle())
@@ -46,20 +48,26 @@ shuffle = () ->
 fillGrid = (elements) ->
   IMAGES_ELEMENT.innerHTML = ""
   for id in elements
-    createImage(id)
+    buildKanji(id)
 
 # Given a kanji index, appends the image for that Kanji to the grid if the image exists
-createImage = (index) ->
+createImage = (index, parent) ->
   # Make sure file exists
   image_url = "../image/#{index}.gif"
   $.ajax({
     url     : image_url,
     type    : 'HEAD',
-    success : () -> buildImage(index, image_url)
+    success : () -> buildImage(index, image_url, parent)
   })
 
 # Constructs the HTML element for a kanji of given element
-buildImage = (index, image_url) ->
+buildImage = (index, image_url, parent) ->
+    kanji           = document.createElement('img')
+    kanji.src       = image_url
+    kanji.className = "image"
+    parent.appendChild(kanji)
+
+buildKanji = (index) ->
   wrapper           = document.createElement('div')
   wrapper.id        = "wrapper_#{index}"
   wrapper.className = "image_wrapper"
@@ -68,12 +76,17 @@ buildImage = (index, image_url) ->
   link.id   = "kanji_#{index}"
   link.href = "#"
 
-  im           = document.createElement('img')
-  im.src       = image_url
-  im.className = "image"
+  kanji_data = window.kanji[index - 1]
+  symbol     = kanji_data['kanji']
+
+  if symbol != undefined
+    kanji           = document.createElement('span')
+    kanji.innerHTML = symbol
+    link.appendChild(kanji)
+  else
+    createImage(index, link)
 
   wrapper.appendChild(link)
-  link.appendChild(im)
   wrapper.onmouseover = () -> fillKanjiModal(index)
   wrapper.onmouseout  = hideKanjiModal
   wrapper.onclick     = () -> removeKanji(index, wrapper)
@@ -123,7 +136,7 @@ autofillInput = () ->
 autofill = (lower, upper) ->
   textbox = $('#numbers')[0]
   for index in [lower..upper]
-    textbox.value += "#{index} "
+    textbox.value += " #{index} "
 
 ## Mouse
 # Store x and y mouse values into window.mouseX and mouseY
@@ -139,5 +152,4 @@ reactToMouseMove = (event) ->
 # Store definition objects in window.kanji
 prepareKanjiData = () ->
   $.get('../data/kanji_json.txt', (data) ->
-    window.kanji = eval(data)
-  )
+    window.kanji = JSON.parse(data))

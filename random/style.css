@@ -10,11 +10,20 @@
   margin-right : auto;
 }
 
+#images {
+  font-size : 60pt;
+}
+
 .image_wrapper {
   width  : 80px;
   height : 100px;
   margin : 5px 5px 5px 5px;
   float  : left;
+}
+
+.image_wrapper a {
+  text-decoration : none;
+  color           : Blue;
 }
 
 .image {
