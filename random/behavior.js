@@ -1,5 +1,5 @@
 (function() {
-  var IMAGES_ELEMENT, MODALHEIGHT, MODALWIDTH, autofill, autofillInput, buildImage, buildKanji, clear, createImage, extractInput, fillGrid, fillKanjiModal, hideKanjiModal, prepareKanjiData, reactToMouseMove, removeKanji, scramble, shuffle, shuffleGrid;
+  var IMAGES_ELEMENT, MODALHEIGHT, MODALWIDTH, autofill, autofillInput, buildImage, buildKanji, clear, clearInput, createImage, extractInput, fillGrid, fillKanjiModal, hideKanjiModal, prepareKanjiData, reactToMouseMove, removeKanji, scramble, shuffle, shuffleGrid;
   MODALHEIGHT = 100;
   MODALWIDTH = 300;
   IMAGES_ELEMENT = null;
@@ -10,6 +10,7 @@
     $('#create')[0].onclick = extractInput;
     $('#shuffle')[0].onclick = shuffleGrid;
     $('#autofill')[0].onclick = autofillInput;
+    $('#clear')[0].onclick = clearInput;
     return $(document).mousemove(reactToMouseMove);
   });
   extractInput = function() {
@@ -146,6 +147,9 @@
       _results.push(textbox.value += " " + index + " ");
     }
     return _results;
+  };
+  clearInput = function() {
+    return $('#numbers')[0].value = "";
   };
   reactToMouseMove = function(event) {
     var modal;

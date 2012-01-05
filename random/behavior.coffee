@@ -16,6 +16,7 @@ $(document).ready( () ->
   $('#create'  )[0].onclick = extractInput
   $('#shuffle' )[0].onclick = shuffleGrid
   $('#autofill')[0].onclick = autofillInput
+  $('#clear')[0].onclick    = clearInput
   $(document).mousemove(reactToMouseMove)
 )
 
@@ -137,6 +138,9 @@ autofill = (lower, upper) ->
   textbox = $('#numbers')[0]
   for index in [lower..upper]
     textbox.value += " #{index} "
+
+clearInput = () ->
+  $('#numbers')[0].value = ""
 
 ## Mouse
 # Store x and y mouse values into window.mouseX and mouseY
