@@ -1,5 +1,3 @@
-## random/behavior.coffee
-#
 # Handles behavior of the random page
 #
 # random.html can spawn a grid of kanji images from what indexes are input into the text box.
@@ -17,6 +15,7 @@ $(document).ready( () ->
   $('#shuffle' )[0].onclick = shuffleGrid
   $('#autofill')[0].onclick = autofillInput
   $('#clear')[0].onclick    = clearInput
+  $('#randomselect')[0].onclick = randomSelect
   $(document).mousemove(reactToMouseMove)
 )
 
@@ -80,7 +79,9 @@ buildKanji = (index) ->
   kanji_data = window.kanji[index - 1]
   symbol     = kanji_data['kanji']
 
-  if symbol != undefined
+  visual_debug = window.visual_debug
+
+  if symbol != undefined and not visual_debug
     kanji           = document.createElement('span')
     kanji.innerHTML = symbol
     link.appendChild(kanji)
@@ -130,14 +131,28 @@ clear = () ->
 
 # Auto enters values from the lower/upperbound input zones into the text area
 autofillInput = () ->
-  lower = parseInt($("#lowerbound")[0].value)
-  upper = parseInt($("#upperbound")[0].value)
+  bounds = retrieve_bounds()
+  lower = bounds[0]
+  upper = bounds[1]
   autofill(lower, upper)
 
 autofill = (lower, upper) ->
   textbox = $('#numbers')[0]
   for index in [lower..upper]
     textbox.value += " #{index} "
+
+randomSelect = () ->
+  bounds = retrieve_bounds()
+  lower = bounds[0]
+  upper = bounds[1]
+  textbox = $('#numbers')[0]
+  for index in [lower..upper]
+    textbox.value += " #{parseInt(Math.random() * (upper - lower)) + lower}"
+
+retrieve_bounds = () ->
+  lower = parseInt($("#lowerbound")[0].value)
+  upper = parseInt($("#upperbound")[0].value)
+  [lower, upper]
 
 clearInput = () ->
   $('#numbers')[0].value = ""

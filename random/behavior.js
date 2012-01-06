@@ -1,5 +1,5 @@
 (function() {
-  var IMAGES_ELEMENT, MODALHEIGHT, MODALWIDTH, autofill, autofillInput, buildImage, buildKanji, clear, clearInput, createImage, extractInput, fillGrid, fillKanjiModal, hideKanjiModal, prepareKanjiData, reactToMouseMove, removeKanji, scramble, shuffle, shuffleGrid;
+  var IMAGES_ELEMENT, MODALHEIGHT, MODALWIDTH, autofill, autofillInput, buildImage, buildKanji, clear, clearInput, createImage, extractInput, fillGrid, fillKanjiModal, hideKanjiModal, prepareKanjiData, randomSelect, reactToMouseMove, removeKanji, retrieve_bounds, scramble, shuffle, shuffleGrid;
   MODALHEIGHT = 100;
   MODALWIDTH = 300;
   IMAGES_ELEMENT = null;
@@ -11,6 +11,7 @@
     $('#shuffle')[0].onclick = shuffleGrid;
     $('#autofill')[0].onclick = autofillInput;
     $('#clear')[0].onclick = clearInput;
+    $('#randomselect')[0].onclick = randomSelect;
     return $(document).mousemove(reactToMouseMove);
   });
   extractInput = function() {
@@ -72,7 +73,7 @@
     return parent.appendChild(kanji);
   };
   buildKanji = function(index) {
-    var kanji, kanji_data, link, symbol, wrapper;
+    var kanji, kanji_data, link, symbol, visual_debug, wrapper;
     wrapper = document.createElement('div');
     wrapper.id = "wrapper_" + index;
     wrapper.className = "image_wrapper";
@@ -81,7 +82,8 @@
     link.href = "#";
     kanji_data = window.kanji[index - 1];
     symbol = kanji_data['kanji'];
-    if (symbol !== void 0) {
+    visual_debug = window.visual_debug;
+    if (symbol !== void 0 && !visual_debug) {
       kanji = document.createElement('span');
       kanji.innerHTML = symbol;
       link.appendChild(kanji);
@@ -134,9 +136,10 @@
     return $('#numbers')[0].innerHTML = "";
   };
   autofillInput = function() {
-    var lower, upper;
-    lower = parseInt($("#lowerbound")[0].value);
-    upper = parseInt($("#upperbound")[0].value);
+    var bounds, lower, upper;
+    bounds = retrieve_bounds();
+    lower = bounds[0];
+    upper = bounds[1];
     return autofill(lower, upper);
   };
   autofill = function(lower, upper) {
@@ -147,6 +150,24 @@
       _results.push(textbox.value += " " + index + " ");
     }
     return _results;
+  };
+  randomSelect = function() {
+    var bounds, index, lower, textbox, upper, _results;
+    bounds = retrieve_bounds();
+    lower = bounds[0];
+    upper = bounds[1];
+    textbox = $('#numbers')[0];
+    _results = [];
+    for (index = lower; lower <= upper ? index <= upper : index >= upper; lower <= upper ? index++ : index--) {
+      _results.push(textbox.value += " " + (parseInt(Math.random() * (upper - lower)) + lower));
+    }
+    return _results;
+  };
+  retrieve_bounds = function() {
+    var lower, upper;
+    lower = parseInt($("#lowerbound")[0].value);
+    upper = parseInt($("#upperbound")[0].value);
+    return [lower, upper];
   };
   clearInput = function() {
     return $('#numbers')[0].value = "";
