@@ -152,22 +152,24 @@
     return _results;
   };
   randomSelect = function() {
-    var bounds, index, lower, textbox, upper, _results;
+    var bounds, i, lower, quantity, textbox, upper, _results;
     bounds = retrieve_bounds();
     lower = bounds[0];
     upper = bounds[1];
+    quantity = bounds[2];
     textbox = $('#numbers')[0];
     _results = [];
-    for (index = lower; lower <= upper ? index <= upper : index >= upper; lower <= upper ? index++ : index--) {
+    for (i = 1; 1 <= quantity ? i <= quantity : i >= quantity; 1 <= quantity ? i++ : i--) {
       _results.push(textbox.value += " " + (parseInt(Math.random() * (upper - lower)) + lower));
     }
     return _results;
   };
   retrieve_bounds = function() {
-    var lower, upper;
+    var lower, quantity, upper;
     lower = parseInt($("#lowerbound")[0].value);
     upper = parseInt($("#upperbound")[0].value);
-    return [lower, upper];
+    quantity = parseInt($("#quantity")[0].value);
+    return [lower, upper, quantity];
   };
   clearInput = function() {
     return $('#numbers')[0].value = "";

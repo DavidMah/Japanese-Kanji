@@ -143,16 +143,18 @@ autofill = (lower, upper) ->
 
 randomSelect = () ->
   bounds = retrieve_bounds()
-  lower = bounds[0]
-  upper = bounds[1]
-  textbox = $('#numbers')[0]
-  for index in [lower..upper]
+  lower    = bounds[0]
+  upper    = bounds[1]
+  quantity = bounds[2]
+  textbox  = $('#numbers')[0]
+  for i in [1..quantity]
     textbox.value += " #{parseInt(Math.random() * (upper - lower)) + lower}"
 
 retrieve_bounds = () ->
   lower = parseInt($("#lowerbound")[0].value)
   upper = parseInt($("#upperbound")[0].value)
-  [lower, upper]
+  quantity = parseInt($("#quantity")[0].value)
+  [lower, upper, quantity]
 
 clearInput = () ->
   $('#numbers')[0].value = ""
