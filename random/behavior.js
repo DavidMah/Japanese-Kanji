@@ -183,8 +183,8 @@
     return modal.css('left', "" + (window.mouseX + 5) + "px");
   };
   prepareKanjiData = function() {
-    return $.get('../data/kanji_json.txt', function(data) {
-      return window.kanji = JSON.parse(data);
+    return $.get('../data/kanji.json', function(data) {
+      return window.kanji = data;
     });
   };
 }).call(this);

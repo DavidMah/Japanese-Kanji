@@ -1,8 +1,7 @@
 # Handles behavior of the random page
 #
 # random.html can spawn a grid of kanji images from what indexes are input into the text box.
-# Mouseovers to the grid of kanji produce a small window with definition information.
-
+# Mouseovers to the grid of kanji produce a small window with definition information.  
 MODALHEIGHT    = 100
 MODALWIDTH     = 300
 IMAGES_ELEMENT = null
@@ -172,5 +171,5 @@ reactToMouseMove = (event) ->
 ## Actual Data handling(like JSON crap)
 # Store definition objects in window.kanji
 prepareKanjiData = () ->
-  $.get('../data/kanji_json.txt', (data) ->
-    window.kanji = JSON.parse(data))
+  $.get('../data/kanji.json', (data) ->
+    window.kanji = data)
