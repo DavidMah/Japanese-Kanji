@@ -3900,3 +3900,3969 @@
   'on': fu
   kun: ! '--------'
   english: adult woman
+- index: 801
+  'on': fu, fuu
+  kun: to(mu), tomi
+  english: rich
+- index: 802
+  'on': bu, mu
+  kun: ! '--------'
+  english: military
+- index: 803
+  'on': fuku
+  kun: ! '--------'
+  english: to return to
+- index: 804
+  'on': fuku
+  kun: ! '--------'
+  english: compound, duplicate
+- index: 805
+  'on': butsu, futsu
+  kun: hotoke
+  english: Buddha, France
+- index: 806
+  'on': hen
+  kun: a(mu), ~a(mi)
+  english: to compile, to knit
+- index: 807
+  'on': ben
+  kun: ! '--------'
+  english: to speak eloquently, valve
+- index: 808
+  'on': ho, hou
+  kun: tamo(tsu)
+  english: to preserve, to insure
+- index: 809
+  'on': bo
+  kun: haka
+  english: grave
+- index: 810
+  'on': hou
+  kun: muku(iru), muku(u)
+  english: to inform, to requite
+- index: 811
+  'on': hou
+  kun: yuta(ka)
+  english: plentiful
+- index: 812
+  'on': bou
+  kun: fuse(gu)
+  english: to prevent, to defend
+- index: 813
+  'on': bou
+  kun: ! '--------'
+  english: to trade
+- index: 814
+  'on': bou, baku
+  kun: aba(ku), aba(reru)
+  english: violent, sudden
+- index: 815
+  'on': mu
+  kun: tsuto(meru)
+  english: duty, affairs
+- index: 816
+  'on': mu
+  kun: yume
+  english: dream
+- index: 817
+  'on': mei
+  kun: mayo(u)
+  english: to be puzzled
+- index: 818
+  'on': men
+  kun: wata
+  english: cotton
+- index: 819
+  'on': yu
+  kun: ! '--------'
+  english: to transport
+- index: 820
+  'on': yo
+  kun: ama(ru), ara(ri)
+  english: remaining, excess
+- index: 821
+  'on': yo
+  kun: azu(keru), azu(karu)
+  english: to deposit
+- index: 822
+  'on': you
+  kun: ! '--------'
+  english: appearance, contain
+- index: 823
+  'on': ryaku
+  kun: ! '--------'
+  english: abridged, strategy
+- index: 824
+  'on': ryuu, ru
+  kun: to(meru), to(maru)
+  english: to keep, to stay
+- index: 825
+  'on': ryou
+  kun: ! '--------'
+  english: territory
+- index: 826
+  'on': i
+  kun: koto, koto(naru)
+  english: different
+- index: 827
+  'on': i, yui
+  kun: ! '--------'
+  english: to leave behind
+- index: 828
+  'on': iki
+  kun: ! '--------'
+  english: bounded area
+- index: 829
+  'on': u
+  kun: ! '--------'
+  english: universe
+- index: 830
+  'on': ei
+  kun: utsu(ru), ha(eru)
+  english: to reflect, to project
+- index: 831
+  'on': en
+  kun: no(biru), no(beru)
+  english: to extend, to postpone
+- index: 832
+  'on': en
+  kun: so(u), ~zo(i)
+  english: along
+- index: 833
+  'on': ga
+  kun: ware, waga~
+  english: self
+- index: 834
+  'on': kai
+  kun: hai
+  english: ash
+- index: 835
+  'on': kaku
+  kun: ! '--------'
+  english: to enlarge
+- index: 836
+  'on': kaku
+  kun: kawa
+  english: leather, to reform
+- index: 837
+  'on': kaku
+  kun: ! '--------'
+  english: tall magnificent building,  cabinet
+- index: 838
+  'on': katsu
+  kun: wa(ru), sa(ku)
+  english: to divide
+- index: 839
+  'on': ! '--------'
+  kun: kabu
+  english: stock, stump
+- index: 840
+  'on': kan
+  kun: ho(su), hi(ru)
+  english: dry
+- index: 841
+  'on': kan
+  kun: ma(ku), maki
+  english: to roll up, volume
+- index: 842
+  'on': kan
+  kun: ! '--------'
+  english: to watch, to care for
+- index: 843
+  'on': kan
+  kun: ! '--------'
+  english: simple
+- index: 844
+  'on': ki
+  kun: abu(nai), aya(ui)
+  english: dangerous
+- index: 845
+  'on': ki
+  kun: tsukue
+  english: desk, table
+- index: 846
+  'on': ki
+  kun: ! '--------'
+  english: wield
+- index: 847
+  'on': ki
+  kun: tatto(i), touto(i)
+  english: noble, your honorable
+- index: 848
+  'on': gi
+  kun: utaga(u)
+  english: to doubt
+- index: 849
+  'on': kyuu
+  kun: su(u)
+  english: to suck, to breath in
+- index: 850
+  'on': kyou, ku
+  kun: sona(eru), tomo
+  english: to offer
+- index: 851
+  'on': kyou
+  kun: mune, muna~
+  english: chest
+- index: 852
+  'on': kyou, gou
+  kun: sato
+  english: hometown
+- index: 853
+  'on': kin, gon
+  kun: tsuto(meru), tsuto(maru)
+  english: service
+- index: 854
+  'on': kin
+  kun: suji
+  english: muscle, threadlike structure
+- index: 855
+  'on': kei
+  kun: ! '--------'
+  english: system, lineage
+- index: 856
+  'on': kei
+  kun: uyama(u)
+  english: to respect
+- index: 857
+  'on': kei
+  kun: ! '--------'
+  english: guard against, to warn
+- index: 858
+  'on': geki
+  kun: ! '--------'
+  english: drama
+- index: 859
+  'on': geki
+  kun: hage(shii)
+  english: violent
+- index: 860
+  'on': ketsu
+  kun: ana
+  english: hole
+- index: 861
+  'on': ken
+  kun: kinu
+  english: silk
+- index: 862
+  'on': ken, gon
+  kun: ! '--------'
+  english: right, power
+- index: 863
+  'on': ken
+  kun: ! '--------'
+  english: constitution
+- index: 864
+  'on': gen
+  kun: minamoto
+  english: source
+- index: 865
+  'on': gen, gon
+  kun: ogoso(ka), kibi(shii)
+  english: severe, solemn
+- index: 866
+  'on': ko, ki
+  kun: onore
+  english: oneself
+- index: 867
+  'on': ko
+  kun: yo(bu)
+  english: to call
+- index: 868
+  'on': go
+  kun: ayama(ru)
+  english: mistake
+- index: 869
+  'on': kou
+  kun: ! '--------'
+  english: empress
+- index: 870
+  'on': kou
+  kun: ! '--------'
+  english: filial piety
+- index: 871
+  'on': kou, ou
+  kun: ! '--------'
+  english: emperor
+- index: 872
+  'on': kou, ku
+  kun: beni, kurenai
+  english: crimson
+- index: 873
+  'on': kou
+  kun: o(riru), fu(ru)
+  english: to descend, to surrender
+- index: 874
+  'on': kou
+  kun: hagane
+  english: steel
+- index: 875
+  'on': koku
+  kun: kiza(mu), kiza(mi)
+  english: to engrave, point of time
+- index: 876
+  'on': koku
+  kun: ! '--------'
+  english: cereal
+- index: 877
+  'on': kotsu
+  kun: hone
+  english: bone
+- index: 878
+  'on': kon
+  kun: koma(ru)
+  english: be in trouble
+- index: 879
+  'on': sa, sha
+  kun: suna
+  english: sand
+- index: 880
+  'on': za
+  kun: suwa(ru)
+  english: seat, to sit
+- index: 881
+  'on': sai
+  kun: su(mu), ~zu(mi)
+  english: to settle, to relieve
+- index: 882
+  'on': sai
+  kun: ta(tsu), saba(ku)
+  english: to cut out, to judge
+- index: 883
+  'on': saku
+  kun: ! '--------'
+  english: scheme, measure
+- index: 884
+  'on': satsu, saku
+  kun: ! '--------'
+  english: counter for books
+- index: 885
+  'on': san
+  kun: kaiko
+  english: silkworm
+- index: 886
+  'on': shi
+  kun: ita(ru)
+  english: to come to
+- index: 887
+  'on': shi
+  kun: watakushi
+  english: private, I
+- index: 888
+  'on': shi
+  kun: sugata
+  english: figure
+- index: 889
+  'on': shi
+  kun: ! '--------'
+  english: to regard, eyesight
+- index: 890
+  'on': shi
+  kun: ! '--------'
+  english: words
+- index: 891
+  'on': shi
+  kun: ! '--------'
+  english: magazine
+- index: 892
+  'on': ji
+  kun: ! '--------'
+  english: magnetism
+- index: 893
+  'on': sha
+  kun: i(ru)
+  english: to shoot
+- index: 894
+  'on': sha
+  kun: su(teru)
+  english: to discard
+- index: 895
+  'on': shaku
+  kun: ! '--------'
+  english: shaku
+- index: 896
+  'on': jaku, nyaku
+  kun: waka(i), mo(shikuwa)
+  english: young
+- index: 897
+  'on': ju
+  kun: ki
+  english: standing tree
+- index: 898
+  'on': shuu
+  kun: osa(meru), osa(maru)
+  english: to take in
+- index: 899
+  'on': shuu, sou
+  kun: mune
+  english: religious sect
+- index: 900
+  'on': shuu, ju
+  kun: tsu(ku), tsu(keru)
+  english: to set about
+- index: 901
+  'on': shuu, shu
+  kun: ! '--------'
+  english: multitude
+- index: 902
+  'on': juu, shou, ju
+  kun: shitaga(u), shitaga(eru)
+  english: to follow
+- index: 903
+  'on': juu
+  kun: tate
+  english: vertical
+- index: 904
+  'on': shuku
+  kun: chiji(mu), chiji(reru)
+  english: to shrink
+- index: 905
+  'on': juku
+  kun: u(reru)
+  english: mature
+- index: 906
+  'on': jun
+  kun: ! '--------'
+  english: pure
+- index: 907
+  'on': sho
+  kun: tokoro
+  english: to deal with
+- index: 908
+  'on': sho
+  kun: ! '--------'
+  english: public-service station
+- index: 909
+  'on': sho
+  kun: moro
+  english: various
+- index: 910
+  'on': jo, ji
+  kun: nozo(ku)
+  english: to rid of
+- index: 911
+  'on': shou
+  kun: ! '--------'
+  english: general officer
+- index: 912
+  'on': shou
+  kun: kizu, ita(mu)
+  english: wound
+- index: 913
+  'on': shou
+  kun: sawa(ru)
+  english: hindrance
+- index: 914
+  'on': jou
+  kun: shiro
+  english: castle
+- index: 915
+  'on': jou
+  kun: mu(su), mu(reru)
+  english: steam, evaporate
+- index: 916
+  'on': shin
+  kun: hari
+  english: needle
+- index: 917
+  'on': jin, ni
+  kun: ! '--------'
+  english: benevolence
+- index: 918
+  'on': sui
+  kun: ta(reru), ta(rasu)
+  english: to hang down
+- index: 919
+  'on': sui
+  kun: o(su)
+  english: to infer
+- index: 920
+  'on': sun
+  kun: ! '--------'
+  english: a bit of
+- index: 921
+  'on': sei, jou
+  kun: mo(ru), saka(ru)
+  english: prosperous, to pile
+- index: 922
+  'on': sei
+  kun: hijiri
+  english: holy, saint
+- index: 923
+  'on': sei
+  kun: makoto
+  english: sincerity
+- index: 924
+  'on': sen
+  kun: ! '--------'
+  english: to proclaim
+- index: 925
+  'on': sen
+  kun: moppa(ra)
+  english: exclusive
+- index: 926
+  'on': sen
+  kun: izumi
+  english: spring
+- index: 927
+  'on': sen
+  kun: ara(u)
+  english: to wash
+- index: 928
+  'on': sen
+  kun: so(meru), shi(miru)
+  english: to dye, to be infected
+- index: 929
+  'on': zen
+  kun: yo(i)
+  english: good
+- index: 930
+  'on': sou
+  kun: kana(deru)
+  english: to play music
+- index: 931
+  'on': sou
+  kun: mado
+  english: window
+- index: 932
+  'on': sou
+  kun: ! '--------'
+  english: to create
+- index: 933
+  'on': sou, shou
+  kun: yosoo(u)
+  english: to dress, to fit out
+- index: 934
+  'on': sou
+  kun: ! '--------'
+  english: stratum
+- index: 935
+  'on': sou
+  kun: misao, ayatsu(ru)
+  english: to manipulate
+- index: 936
+  'on': zou
+  kun: kura
+  english: store
+- index: 937
+  'on': zou
+  kun: ! '--------'
+  english: internal organ
+- index: 938
+  'on': son, zon
+  kun: ! '--------'
+  english: to exist
+- index: 939
+  'on': son
+  kun: tatto(i), touto(i)
+  english: to honor
+- index: 940
+  'on': taku
+  kun: ! '--------'
+  english: dwelling house
+- index: 941
+  'on': tan
+  kun: katsu(gu), nina(u)
+  english: to bear on shoulder, to undertake
+- index: 942
+  'on': tan
+  kun: sagu(ru), saga(su)
+  english: to probe, to search
+- index: 943
+  'on': tan
+  kun: ! '--------'
+  english: to be born
+- index: 944
+  'on': dan
+  kun: ! '--------'
+  english: step
+- index: 945
+  'on': dan
+  kun: atata(kai), atata(maru)
+  english: warm
+- index: 946
+  'on': chi
+  kun: ne, atai
+  english: value
+- index: 947
+  'on': chuu
+  kun: ! '--------'
+  english: space, midair
+- index: 948
+  'on': chuu
+  kun: ! '--------'
+  english: loyalty
+- index: 949
+  'on': cho
+  kun: arawa(su), ichijiru(shii)
+  english: author, conspicuous
+- index: 950
+  'on': chou
+  kun: ! '--------'
+  english: government agency
+- index: 951
+  'on': chou
+  kun: itada(ku), itadaki
+  english: summit, to receive humbly
+- index: 952
+  'on': chou
+  kun: shio
+  english: tide
+- index: 953
+  'on': chin
+  kun: ! '--------'
+  english: wage, charges
+- index: 954
+  'on': tsuu
+  kun: ita(i), ita(mu)
+  english: pain
+- index: 955
+  'on': ten
+  kun: ! '--------'
+  english: to unfold, to display
+- index: 956
+  'on': tou
+  kun: u(tsu)
+  english: to study,  to suppers by armed force
+- index: 957
+  'on': tou
+  kun: ! '--------'
+  english: party
+- index: 958
+  'on': tou
+  kun: ! '--------'
+  english: sugar
+- index: 959
+  'on': ! '--------'
+  kun: todo(keru), todo(ku)
+  english: to deliver, to reach
+- index: 960
+  'on': nan
+  kun: kata(i), muzukashi(i)
+  english: difficult, disaster
+- index: 961
+  'on': nyuu
+  kun: chichi, chi
+  english: milk, breast
+- index: 962
+  'on': nin
+  kun: mito(meru)
+  english: to recognize
+- index: 963
+  'on': nou, nat~, nan, nou
+  kun: osa(meru), osa(maru)
+  english: to pay, to accept, to put away
+- index: 964
+  'on': nou
+  kun: ! '--------'
+  english: brain
+- index: 965
+  'on': ha
+  kun: ! '--------'
+  english: sect, to dispatch
+- index: 966
+  'on': hai
+  kun: oga(mu)
+  english: to worship, humbly
+- index: 967
+  'on': hai
+  kun: se, sei, somu(ku)
+  english: back
+- index: 968
+  'on': hai
+  kun: ! '------'
+  english: lung
+- index: 969
+  'on': hai
+  kun: ! '------'
+  english: haiku
+- index: 970
+  'on': han
+  kun: ! '------'
+  english: squad
+- index: 971
+  'on': ban
+  kun: ! '------'
+  english: evening
+- index: 972
+  'on': hi
+  kun: ina
+  english: say no, or not
+- index: 973
+  'on': hi
+  kun: ! '--------'
+  english: to criticize
+- index: 974
+  'on': hi
+  kun: hi(meru)
+  english: secret
+- index: 975
+  'on': fuku
+  kun: hara
+  english: belly
+- index: 976
+  'on': fun
+  kun: furu(u)
+  english: to rouse up
+- index: 977
+  'on': hei
+  kun: nami, nara(beru)
+  english: to line up, medium quality, row
+- index: 978
+  'on': hei
+  kun: ! '--------'
+  english: imperial palace steps
+- index: 979
+  'on': hei
+  kun: to(jiru), shi(meru)
+  english: to close
+- index: 980
+  'on': hen
+  kun: kata
+  english: fragment, one of two
+- index: 981
+  'on': ho
+  kun: ogina(u)
+  english: supplement, to assign, to assist
+- index: 982
+  'on': bo
+  kun: ku(reru), ku(rasu)
+  english: dusk, to live
+- index: 983
+  'on': hou
+  kun: takara
+  english: treasure
+- index: 984
+  'on': hou
+  kun: otozu(reru), tazu(neru)
+  english: to visit
+- index: 985
+  'on': bou, mou
+  kun: na(i), na(ki)~
+  english: to decease, to flee
+- index: 986
+  'on': bou
+  kun: wasu(reru)
+  english: to forget
+- index: 987
+  'on': bou
+  kun: ! '--------'
+  english: rod, straight, fellow
+- index: 988
+  'on': mai
+  kun: ! '--------'
+  english: counter for flat things
+- index: 989
+  'on': maku, baku
+  kun: ! '--------'
+  english: curtain, shogunate
+- index: 990
+  'on': mitsu
+  kun: ! '--------'
+  english: close, secret
+- index: 991
+  'on': mei
+  kun: ! '--------'
+  english: alliance
+- index: 992
+  'on': mo, bo
+  kun: ! '--------'
+  english: pattern
+- index: 993
+  'on': yaku
+  kun: wake
+  english: to translate, sense
+- index: 994
+  'on': yuu
+  kun: ! '--------'
+  english: to mail
+- index: 995
+  'on': yuu
+  kun: yasa(shii), sugu(reru)
+  english: superior, actor
+- index: 996
+  'on': you
+  kun: osana(i)
+  english: very young
+- index: 997
+  'on': yoku
+  kun: hos(suru), ho(shii)
+  english: to desire
+- index: 998
+  'on': yoku
+  kun: ! '--------'
+  english: the following
+- index: 999
+  'on': ran
+  kun: mida(reru), mida(su)
+  english: disordered
+- index: 1000
+  'on': ran
+  kun: tamago
+  english: egg
+- index: 1001
+  'on': ran
+  kun: ! '--------'
+  english: to look over
+- index: 1002
+  'on': ri
+  kun: ura
+  english: rear
+- index: 1003
+  'on': ritsu, richi
+  kun: ! '--------'
+  english: law, rhythm
+- index: 1004
+  'on': rin
+  kun: nozo(mu)
+  english: be present at
+- index: 1005
+  'on': rou
+  kun: hoga(raka)
+  english: cheerful, clear
+- index: 1006
+  'on': ron
+  kun: ! '--------'
+  english: to argue, theory
+- index: 1007
+  'on': a
+  kun: ! '--------'
+  english: sub~, used phonetically for "a"
+- index: 1008
+  'on': ai
+  kun: awa(re), awa(remu)
+  english: sorrow, pity
+- index: 1009
+  'on': aku
+  kun: nigi(ru)
+  english: to grasp
+- index: 1010
+  'on': ! '--------'
+  kun: atsuka(u), atsuka(i)
+  english: to handle
+- index: 1011
+  'on': i, e
+  kun: ! '--------'
+  english: to depend on
+- index: 1012
+  'on': i
+  kun: era(i)
+  english: great
+- index: 1013
+  'on': i
+  kun: ! '--------'
+  english: might, threaten by force
+- index: 1014
+  'on': i
+  kun: ! '--------'
+  english: company officer
+- index: 1015
+  'on': i
+  kun: nagusa(meru), nagusa(mu)
+  english: to console
+- index: 1016
+  'on': i
+  kun: tame, na(su)
+  english: to do, sake
+- index: 1017
+  'on': i
+  kun: ! '--------'
+  english: fiber
+- index: 1018
+  'on': i
+  kun: ! '--------'
+  english: latitude
+- index: 1019
+  'on': i
+  kun: chiga(u), chiga(eru)
+  english: to differ, to violate
+- index: 1020
+  'on': sei, shou, i
+  kun: ! '--------'
+  english: well
+- index: 1021
+  'on': ichi
+  kun: ! '--------'
+  english: one (used in legal documents  and checks)
+- index: 1022
+  'on': itsu
+  kun: ! '--------'
+  english: to let slip, exceptional
+- index: 1023
+  'on': tou
+  kun: ine, ina~
+  english: rice plant, lightning
+- index: 1024
+  'on': ! '--------'
+  kun: imo
+  english: potato
+- index: 1025
+  'on': in
+  kun: ! '--------'
+  english: marriage
+- index: 1026
+  'on': in
+  kun: kage, kage(ru)
+  english: shade
+- index: 1027
+  'on': in
+  kun: kaku(su), kaku(reru)
+  english: to hide
+- index: 1028
+  'on': in
+  kun: ! '--------'
+  english: rhyme
+- index: 1029
+  'on': ka
+  kun: uzu
+  english: whirlpool
+- index: 1030
+  'on': ho
+  kun: ura
+  english: seaside
+- index: 1031
+  'on': ei
+  kun: kage
+  english: shadow
+- index: 1032
+  'on': ei
+  kun: yo(mu)
+  english: to recite poetry
+- index: 1033
+  'on': ei
+  kun: surudo(i)
+  english: sharp
+- index: 1034
+  'on': eki, yaku
+  kun: ! '--------'
+  english: epidemic
+- index: 1035
+  'on': etsu
+  kun: ! '--------'
+  english: delighted
+- index: 1036
+  'on': etsu
+  kun: ! '--------'
+  english: be granted an audience
+- index: 1037
+  'on': etsu
+  kun: ko(su), ko(eru)
+  english: go beyond
+- index: 1038
+  'on': etsu
+  kun: ! '--------'
+  english: to review
+- index: 1039
+  'on': en
+  kun: ! '--------'
+  english: banquet
+- index: 1040
+  'on': en
+  kun: ! '--------'
+  english: to aid
+- index: 1041
+  'on': en
+  kun: honoo
+  english: flame, inflammation
+- index: 1042
+  'on': en
+  kun: kemu(ru), kemuri
+  english: smoke
+- index: 1043
+  'on': en
+  kun: saru
+  english: monkey
+- index: 1044
+  'on': en, ~nen
+  kun: fuchi
+  english: relation, edge
+- index: 1045
+  'on': en
+  kun: namari
+  english: lead
+- index: 1046
+  'on': o
+  kun: ! "kega(su), yogo(su),\n        kitana(i)"
+  english: dirty
+- index: 1047
+  'on': ou
+  kun: boko
+  english: concave
+- index: 1048
+  'on': ou
+  kun: oku
+  english: inner part
+- index: 1049
+  'on': ou
+  kun: o(su), o(saeru)
+  english: to push
+- index: 1050
+  'on': ou
+  kun: ! '--------'
+  english: Europe
+- index: 1051
+  'on': ou
+  kun: nagu(ru)
+  english: to beat
+- index: 1052
+  'on': ou
+  kun: ! '--------'
+  english: old man
+- index: 1053
+  'on': chuu
+  kun: oki
+  english: offing
+- index: 1054
+  'on': oku
+  kun: ! '--------'
+  english: speculate, to remember
+- index: 1055
+  'on': otsu
+  kun: oto~
+  english: second, young
+- index: 1056
+  'on': ! '--------'
+  kun: oro(su), oro(shi)
+  english: wholesale
+- index: 1057
+  'on': 'on'
+  kun: oda(yaka)
+  english: calm, mild
+- index: 1058
+  'on': ka
+  kun: ! '--------'
+  english: fine
+- index: 1059
+  'on': ka
+  kun: yome, totsu(gu)
+  english: to wed a man, bride
+- index: 1060
+  'on': ka
+  kun: ! '--------'
+  english: few
+- index: 1061
+  'on': ka
+  kun: hima
+  english: free time
+- index: 1062
+  'on': ka
+  kun: ka(keru), ka(karu)
+  english: to lay across
+- index: 1063
+  'on': ka
+  kun: ! '--------'
+  english: calamity
+- index: 1064
+  'on': ka
+  kun: kase(gu)
+  english: to work
+- index: 1065
+  'on': ka
+  kun: ! '--------'
+  english: counter for items
+- index: 1066
+  'on': ka, ke
+  kun: hana
+  english: magnificent, China
+- index: 1067
+  'on': ka
+  kun: ! '--------'
+  english: confectionery
+- index: 1068
+  'on': ! '--------'
+  kun: ka
+  english: mosquito
+- index: 1069
+  'on': ga
+  kun: miya(bi)
+  english: elegant
+- index: 1070
+  'on': ga
+  kun: ! '--------'
+  english: starved
+- index: 1071
+  'on': kai
+  kun: ! '--------'
+  english: mediate
+- index: 1072
+  'on': kai
+  kun: katamari
+  english: lump
+- index: 1073
+  'on': kai
+  kun: kowa(su), kowa(reru)
+  english: to break down
+- index: 1074
+  'on': kai, ke
+  kun: aya(shii), aya(shimu)
+  english: mysterious
+- index: 1075
+  'on': kai
+  kun: ku(yamu), kuya(shii)
+  english: to repent
+- index: 1076
+  'on': kai
+  kun: futokoro, natsu(kashii)
+  english: bosom, to long for
+- index: 1077
+  'on': kai
+  kun: imashi(meru)
+  english: caution
+- index: 1078
+  'on': kai
+  kun: ! '--------'
+  english: to kidnap
+- index: 1079
+  'on': kai
+  kun: mina
+  english: all
+- index: 1080
+  'on': gai
+  kun: ! '--------'
+  english: to expose crimes
+- index: 1081
+  'on': gai
+  kun: ! '--------'
+  english: to deplore
+- index: 1082
+  'on': gai
+  kun: ! '--------'
+  english: general
+- index: 1083
+  'on': gai
+  kun: ! '--------'
+  english: outer limits
+- index: 1084
+  'on': gai
+  kun: ! '--------'
+  english: to correspond to
+- index: 1085
+  'on': kaki
+  kun: ! '--------'
+  english: fence
+- index: 1086
+  'on': kaku
+  kun: ! '--------'
+  english: to intimidate
+- index: 1087
+  'on': kaku
+  kun: ! '--------'
+  english: nucleus
+- index: 1088
+  'on': kaku
+  kun: kara, gara
+  english: shell
+- index: 1089
+  'on': kaku
+  kun: e(ru)
+  english: to catch game
+- index: 1090
+  'on': kaku
+  kun: ! '--------'
+  english: harvest
+- index: 1091
+  'on': kaku
+  kun: ! '--------'
+  english: to compare
+- index: 1092
+  'on': kaku
+  kun: ! '--------'
+  english: outer enclosure
+- index: 1093
+  'on': kaku
+  kun: heda(teru), heda(taru)
+  english: apart
+- index: 1094
+  'on': gaku
+  kun: take
+  english: high mountain
+- index: 1095
+  'on': ! '--------'
+  kun: ka(keru), ka(karu)
+  english: to set, to hang
+- index: 1096
+  'on': ! '--------'
+  kun: kata, ~gata
+  english: lagoon
+- index: 1097
+  'on': katsu
+  kun: ! '--------'
+  english: to shout at
+- index: 1098
+  'on': katsu
+  kun: ! '--------'
+  english: to lump together
+- index: 1099
+  'on': katsu
+  kun: kawa(ku)
+  english: to run dry, to thirst
+- index: 1100
+  'on': katsu
+  kun: sube(ru), name(raka)
+  english: to slide, smooth
+- index: 1101
+  'on': katsu
+  kun: ! '--------'
+  english: brown
+- index: 1102
+  'on': katsu
+  kun: ! '--------'
+  english: exercise jurisdiction over
+- index: 1103
+  'on': ! '--------'
+  kun: ka(tsu)
+  english: as well
+- index: 1104
+  'on': ! '--------'
+  kun: ka(ru)
+  english: to clip
+- index: 1105
+  'on': kan
+  kun: kawa(ku), kawa(kasu)
+  english: dry
+- index: 1106
+  'on': kan
+  kun: kanmuri
+  english: crown
+- index: 1107
+  'on': kan
+  kun: ! '--------'
+  english: to check, intuitive perception
+- index: 1108
+  'on': kan
+  kun: susu(meru)
+  english: to urge
+- index: 1109
+  'on': kan
+  kun: ! '--------'
+  english: to call
+- index: 1110
+  'on': kan
+  kun: ta(eru)
+  english: to endure
+- index: 1111
+  'on': kan
+  kun: ! '--------'
+  english: lenient
+- index: 1112
+  'on': kan
+  kun: wazura(u)
+  english: affect by disease
+- index: 1113
+  'on': kan
+  kun: ! '--------'
+  english: strongly regret
+- index: 1114
+  'on': kan
+  kun: ka(eru), ka(waru)
+  english: to exchange
+- index: 1115
+  'on': kan
+  kun: a(ete)
+  english: boldly
+- index: 1116
+  'on': kan
+  kun: ! '--------'
+  english: coffin
+- index: 1117
+  'on': kan
+  kun: ! '--------'
+  english: article
+- index: 1118
+  'on': kan
+  kun: ! '--------'
+  english: joyous
+- index: 1119
+  'on': kan
+  kun: ase
+  english: sweat
+- index: 1120
+  'on': kan
+  kun: ! '--------'
+  english: ring, surround
+- index: 1121
+  'on': kan
+  kun: ama(i), ama(eru)
+  english: sweet
+- index: 1122
+  'on': kan
+  kun: ! '--------'
+  english: to oversee, prison
+- index: 1123
+  'on': kan
+  kun: yuru(i), yuru(mu)
+  english: to slack
+- index: 1124
+  'on': kan
+  kun: ! '--------'
+  english: can
+- index: 1125
+  'on': kan
+  kun: kimo
+  english: liver
+- index: 1126
+  'on': kan
+  kun: ! '--------'
+  english: warship
+- index: 1127
+  'on': kan
+  kun: tsuranu(ku)
+  english: to penetrate, to attain
+- index: 1128
+  'on': kan
+  kun: ! '--------'
+  english: to return
+- index: 1129
+  'on': kan
+  kun: ! '--------'
+  english: to appraise, reference volume
+- index: 1130
+  'on': kan
+  kun: ! '--------'
+  english: leisure, quiet
+- index: 1131
+  'on': kan
+  kun: ochi(iru), otoshii(reru)
+  english: to fall in, quiet
+- index: 1132
+  'on': gan
+  kun: fuku(mu), fuku(meru)
+  english: to contain
+- index: 1133
+  'on': gan
+  kun: ! '--------'
+  english: stubborn
+- index: 1134
+  'on': ki
+  kun: kuwada(teru)
+  english: project
+- index: 1135
+  'on': ki
+  kun: ! '--------'
+  english: unusual
+- index: 1136
+  'on': ki
+  kun: ! '--------'
+  english: diverge
+- index: 1137
+  'on': ki
+  kun: iku~, iku(tsu)
+  english: how many, some
+- index: 1138
+  'on': ki
+  kun: i(mu), i(mawashii)
+  english: mourning, abhor
+- index: 1139
+  'on': ki
+  kun: sude(ni)
+  english: already
+- index: 1140
+  'on': ki
+  kun: ! '--------'
+  english: shogi
+- index: 1141
+  'on': ki
+  kun: ! '--------'
+  english: to abandon, to destroy
+- index: 1142
+  'on': ki
+  kun: ino(ru)
+  english: to pray
+- index: 1143
+  'on': ki
+  kun: ! '--------'
+  english: track
+- index: 1144
+  'on': ki
+  kun: kagaya(ku)
+  english: to shine brilliantly
+- index: 1145
+  'on': ki
+  kun: u(eru)
+  english: to starve
+- index: 1146
+  'on': ki
+  kun: ! '--------'
+  english: to ride on horseback
+- index: 1147
+  'on': ki
+  kun: oni
+  english: devil
+- index: 1148
+  'on': gi
+  kun: ituswa(u), nise
+  english: to falsify
+- index: 1149
+  'on': gi
+  kun: ! '--------'
+  english: ceremony
+- index: 1150
+  'on': gi
+  kun: yoro(shii)
+  english: right
+- index: 1151
+  'on': gi
+  kun: tawamu(reru)
+  english: sport
+- index: 1152
+  'on': gi
+  kun: ! '--------'
+  english: imitate
+- index: 1153
+  'on': gi
+  kun: azamu(ku)
+  english: to deceive
+- index: 1154
+  'on': gi
+  kun: ! '--------'
+  english: sacrifice
+- index: 1155
+  'on': kiku
+  kun: ! '--------'
+  english: chrysanthemum
+- index: 1156
+  'on': kichi, kitsu
+  kun: ! '--------'
+  english: lucky
+- index: 1157
+  'on': ! ' kitsu'
+  kun: ! '--------'
+  english: to ingest
+- index: 1158
+  'on': ! ' kitsu'
+  kun: tsu(meru), tsu(maru)
+  english: to reprimand, to stuff
+- index: 1159
+  'on': ! ' kyaku'
+  kun: ! '--------'
+  english: to eliminate, to reject
+- index: 1160
+  'on': ! ' kyaku, kya'
+  kun: ashi
+  english: leg, base, plot of a play
+- index: 1161
+  'on': gyaku
+  kun: shiita(geru)
+  english: cruel
+- index: 1162
+  'on': kyuu
+  kun: oka
+  english: hill
+- index: 1163
+  'on': kyuu
+  kun: oyo(bu), oyo(bosu)
+  english: reach to
+- index: 1164
+  'on': kyuu
+  kun: ku(chiru)
+  english: to decay
+- index: 1165
+  'on': kyuu
+  kun: kiwa(meru), kiwa(maru)
+  english: to be in extremity
+- index: 1166
+  'on': kyuu
+  kun: ! '--------'
+  english: to inquire into
+- index: 1167
+  'on': kyo
+  kun: ! '--------'
+  english: huge
+- index: 1168
+  'on': kyo
+  kun: koba(mu)
+  english: to refuse
+- index: 1169
+  'on': kyo, ko
+  kun: ! '--------'
+  english: grounds
+- index: 1170
+  'on': kyo, ko
+  kun: ! '--------'
+  english: void, false
+- index: 1171
+  'on': kyo
+  kun: ! '--------'
+  english: distance
+- index: 1172
+  'on': kyou
+  kun: ! '--------'
+  english: to enjoy
+- index: 1173
+  'on': kyou
+  kun: ! '--------'
+  english: bad luck, atrocious
+- index: 1174
+  'on': kyou
+  kun: sake(bu)
+  english: to shout
+- index: 1175
+  'on': kyou
+  kun: ! '--------'
+  english: gorge
+- index: 1176
+  'on': kyou
+  kun: oso(reru), oso(roshii)
+  english: fear
+- index: 1177
+  'on': kyou
+  kun: uyauya(shii)
+  english: respectful
+- index: 1178
+  'on': kyou
+  kun: hasa(mu), hasa(maru)
+  english: to hold between
+- index: 1179
+  'on': kyou
+  kun: ! '--------'
+  english: conditions
+- index: 1180
+  'on': kyou
+  kun: kuru(u), kuru(waseru)
+  english: crazy
+- index: 1181
+  'on': kyou
+  kun: sema(i), seba(maru)
+  english: narrow
+- index: 1182
+  'on': kyou
+  kun: ta(meru)
+  english: to rectify
+- index: 1183
+  'on': kyou
+  kun: obiya(kasu), odo(su)
+  english: to threaten
+- index: 1184
+  'on': kyou
+  kun: hibi(ku)
+  english: to reverberate
+- index: 1185
+  'on': ! ' kyou'
+  kun: odoro(ku), odoro(kasu)
+  english: to surprise
+- index: 1186
+  'on': gyou, kou
+  kun: ao(gu), oo(se)
+  english: to look up
+- index: 1187
+  'on': gyou
+  kun: ko(ru), ko(rasu)
+  english: to congeal, to be absorbed in 
+- index: 1188
+  'on': gyou
+  kun: akatsuki
+  english: dawn
+- index: 1189
+  'on': kin
+  kun: ! '--------'
+  english: catty
+- index: 1190
+  'on': kin
+  kun: koto
+  english: koto, (Japanese) harp
+- index: 1191
+  'on': kin
+  kun: ! '--------'
+  english: tighten, exigent
+- index: 1192
+  'on': kin
+  kun: ! '--------'
+  english: bacteria
+- index: 1193
+  'on': kin
+  kun: eri
+  english: collar
+- index: 1194
+  'on': kin
+  kun: tsutsushi(mu)
+  english: respectfully
+- index: 1195
+  'on': gin
+  kun: ! '--------'
+  english: to recite
+- index: 1196
+  'on': ku
+  kun: ka(keru), ka(ru)
+  english: to drive, to expel, to gallop
+- index: 1197
+  'on': gu
+  kun: oro(ka)
+  english: foolish
+- index: 1198
+  'on': gu
+  kun: osore
+  english: fears
+- index: 1199
+  'on': guu
+  kun: ! '--------'
+  english: by chance, couple, even
+- index: 1200
+  'on': guu
+  kun: ! '--------'
+  english: treat, encounter
+- index: 1201
+  'on': guu
+  kun: sumi
+  english: nook
+- index: 1202
+  'on': kutsu
+  kun: ! '--------'
+  english: to bend
+- index: 1203
+  'on': kutsu
+  kun: ho(ru)
+  english: to dig
+- index: 1204
+  'on': ka
+  kun: kutsu
+  english: shoes
+- index: 1205
+  'on': ! '--------'
+  kun: ku(ru)
+  english: to reel, to shift onward
+- index: 1206
+  'on': sou
+  kun: kuwa
+  english: mulberry
+- index: 1207
+  'on': kun
+  kun: isao
+  english: meritorious service
+- index: 1208
+  'on': kun
+  kun: kao(ru)
+  english: balmy
+- index: 1209
+  'on': kei
+  kun: katamu(ku), katamu(keru)
+  english: to incline
+- index: 1210
+  'on': kei
+  kun: ! '--------'
+  english: penalty
+- index: 1211
+  'on': kei
+  kun: ! '--------'
+  english: enlighten
+- index: 1212
+  'on': kei
+  kun: chigi(ru)
+  english: to make an agreement
+- index: 1213
+  'on': kei, e
+  kun: megu(mu)
+  english: favor
+- index: 1214
+  'on': kei
+  kun: ! '--------'
+  english: felicitation
+- index: 1215
+  'on': kei
+  kun: iko(i), iko(u)
+  english: to take a rest
+- index: 1216
+  'on': kei
+  kun: kaka(geru)
+  english: to put up
+- index: 1217
+  'on': kei
+  kun: tazusa(eru), tazusa(waru)
+  english: to carry in hand
+- index: 1218
+  'on': kei
+  kun: ! '--------'
+  english: ravine
+- index: 1219
+  'on': kei
+  kun: tsu(gu)
+  english: to succeed
+- index: 1220
+  'on': kei
+  kun: kuki
+  english: stem
+- index: 1221
+  'on': kei
+  kun: hotaru
+  english: firefly
+- index: 1222
+  'on': kei
+  kun: niwatori
+  english: chicken
+- index: 1223
+  'on': gei
+  kun: muka(eru)
+  english: welcome
+- index: 1224
+  'on': gei
+  kun: kujira
+  english: whale
+- index: 1225
+  'on': gei
+  kun: u(tsu)
+  english: to strike
+- index: 1226
+  'on': ketsu
+  kun: ! '--------'
+  english: outstanding person
+- index: 1227
+  'on': ken
+  kun: ! '--------'
+  english: frugal
+- index: 1228
+  'on': ken
+  kun: ka(neru)
+  english: concurrently
+- index: 1229
+  'on': ken
+  kun: tsurugi
+  english: sword
+- index: 1230
+  'on': ken
+  kun: ! '--------'
+  english: sphere
+- index: 1231
+  'on': ken
+  kun: kata(i), ~gata(i)
+  english: firm
+- index: 1232
+  'on': ken, gen
+  kun: kira(u), iya
+  english: to dislike
+- index: 1233
+  'on': ken, ke
+  kun: ka(keru), ka(karu)
+  english: to suspend
+- index: 1234
+  'on': ken, kon
+  kun: ! '--------'
+  english: to offer
+- index: 1235
+  'on': ken
+  kun: kata
+  english: shoulder
+- index: 1236
+  'on': ken
+  kun: ! '--------'
+  english: humble
+- index: 1237
+  'on': ken
+  kun: kashiko(i)
+  english: wise
+- index: 1238
+  'on': ken
+  kun: noki
+  english: eaves, counter for houses
+- index: 1239
+  'on': ken
+  kun: tsuka(u), ~zuka(i)
+  english: to dispatch, to spend
+- index: 1240
+  'on': ken
+  kun: ! '--------'
+  english: manifest
+- index: 1241
+  'on': gen
+  kun: maboroshi
+  english: phantom
+- index: 1242
+  'on': gen
+  kun: tsuru
+  english: string
+- index: 1243
+  'on': gen
+  kun: ! '--------'
+  english: profound, unpolished
+- index: 1244
+  'on': ko
+  kun: ! '--------'
+  english: solitary
+- index: 1245
+  'on': ko
+  kun: ! '--------'
+  english: arc
+- index: 1246
+  'on': ko
+  kun: ka(reru), ka(rasu)
+  english: to wither, to dry up
+- index: 1247
+  'on': ko
+  kun: hoko(ru)
+  english: boast, be proud
+- index: 1248
+  'on': ko
+  kun: yato(u)
+  english: to employ
+- index: 1249
+  'on': ko
+  kun: kaeri(miru)
+  english: to look back, to show favor to
+- index: 1250
+  'on': ko
+  kun: tsuzumi
+  english: drum
+- index: 1251
+  'on': go
+  kun: taga(i)
+  english: reciprocal
+- index: 1252
+  'on': go
+  kun: ! '--------'
+  english: Kingdom of Wu
+- index: 1253
+  'on': go
+  kun: ! '--------'
+  english: enjoyment
+- index: 1254
+  'on': gyo, go
+  kun: on~
+  english: general honorific term
+- index: 1255
+  'on': go
+  kun: sato(ru)
+  english: awake to~
+- index: 1256
+  'on': go
+  kun: ! '--------'
+  english: go, Japanese checkers
+- index: 1257
+  'on': kou
+  kun: ! '---------'
+  english: feudal lord
+- index: 1258
+  'on': kou
+  kun: ! '---------'
+  english: pit
+- index: 1259
+  'on': kou
+  kun: ! '---------'
+  english: open hole
+- index: 1260
+  'on': kou
+  kun: taku(mi)
+  english: skillful
+- index: 1261
+  'on': kou
+  kun: ! '--------'
+  english: constant
+- index: 1262
+  'on': kou
+  kun: awa(teru), awa(tadashii)
+  english: flurried, frightened
+- index: 1263
+  'on': kou
+  kun: ! '--------'
+  english: to resist
+- index: 1264
+  'on': kou
+  kun: kaka(waru)
+  english: to arrest
+- index: 1265
+  'on': kou
+  kun: hika(eru), hika(e)
+  english: to hold back
+- index: 1266
+  'on': kou
+  kun: se(meru)
+  english: to attack
+- index: 1267
+  'on': kou
+  kun: sara, fu(keru)
+  english: to renew
+- index: 1268
+  'on': kou
+  kun: e
+  english: inlet
+- index: 1269
+  'on': kou
+  kun: ! '--------'
+  english: flood
+- index: 1270
+  'on': kou
+  kun: mizo
+  english: channel
+- index: 1271
+  'on': kou, kan
+  kun: ! '--------'
+  english: shell, first
+- index: 1272
+  'on': kou
+  kun: kara(i)
+  english: hard
+- index: 1273
+  'on': kou
+  kun: ! '--------'
+  english: manuscript
+- index: 1274
+  'on': kou
+  kun: shibo(ru), shi(meru)
+  english: to strangle, wring
+- index: 1275
+  'on': kou
+  kun: tsuna
+  english: essential points, rope
+- index: 1276
+  'on': kou
+  kun: ! '--------'
+  english: assent
+- index: 1277
+  'on': kou
+  kun: ara(i), a(reru)
+  english: wild
+- index: 1278
+  'on': kou
+  kun: ! '--------'
+  english: balance
+- index: 1279
+  'on': kou, ku
+  kun: mitsu(gu)
+  english: tribute
+- index: 1280
+  'on': kou
+  kun: ! '--------'
+  english: to purchase
+- index: 1281
+  'on': kou
+  kun: ! '--------'
+  english: suburb
+- index: 1282
+  'on': kou
+  kun: ! '--------'
+  english: ferment
+- index: 1283
+  'on': kou
+  kun: ! '--------'
+  english: clause
+- index: 1284
+  'on': kou, kyou
+  kun: ka, kao(ri)
+  english: sweet smell
+- index: 1285
+  'on': gou
+  kun: ! '--------'
+  english: tough
+- index: 1286
+  'on': gou
+  kun: ! '--------'
+  english: torture
+- index: 1287
+  'on': gou
+  kun: ! '--------'
+  english: great man, magnificent
+- index: 1288
+  'on': koku
+  kun: ka(tsu)
+  english: to overcome
+- index: 1289
+  'on': koku
+  kun: ! '--------'
+  english: severe
+- index: 1290
+  'on': goku
+  kun: ! '--------'
+  english: prison, hell
+- index: 1291
+  'on': you
+  kun: koshi
+  english: waist
+- index: 1292
+  'on': ! '--------'
+  kun: ko(mu), ko(meru)
+  english: to move inward
+- index: 1293
+  'on': kon
+  kun: ! '--------'
+  english: to reclaim
+- index: 1294
+  'on': kon
+  kun: ! '--------'
+  english: to marry
+- index: 1295
+  'on': kon
+  kun: ura(mu), ura(meshii)
+  english: to hold a grudge
+- index: 1296
+  'on': kon
+  kun: nengo(ro)
+  english: earnest, familiar
+- index: 1297
+  'on': kon
+  kun: ! '--------'
+  english: insect
+- index: 1298
+  'on': kon
+  kun: ! '--------'
+  english: dark blue
+- index: 1299
+  'on': kon
+  kun: tamashii
+  english: soul
+- index: 1300
+  'on': sa
+  kun: ! '--------'
+  english: to assist, field officer
+- index: 1301
+  'on': sa
+  kun: sosonoka(su)
+  english: to instigate
+- index: 1302
+  'on': sa
+  kun: ! '--------'
+  english: to swindle
+- index: 1303
+  'on': sa
+  kun: kusari
+  english: chain
+- index: 1304
+  'on': sai
+  kun: ! '--------'
+  english: debt, bond
+- index: 1305
+  'on': sai
+  kun: moyoo(su)
+  english: to hold an event, to press for
+- index: 1306
+  'on': sai
+  kun: ! '--------'
+  english: preside
+- index: 1307
+  'on': sai
+  kun: irodo(ru)
+  english: beautiful coloring
+- index: 1308
+  'on': sai
+  kun: ! '--------'
+  english: plant
+- index: 1309
+  'on': sai, sei
+  kun: ! '--------'
+  english: year, age suffix
+- index: 1310
+  'on': sai
+  kun: kuda(ku), kuda(keru)
+  english: to crush up
+- index: 1311
+  'on': sai
+  kun: ! '--------'
+  english: to observe religious abstinence
+- index: 1312
+  'on': sai
+  kun: no(seru), no(ru)
+  english: to load, to put in print
+- index: 1313
+  'on': zai
+  kun: ! '--------'
+  english: preparation, chemical
+- index: 1314
+  'on': ! '--------'
+  kun: sa(ku), ~zaki
+  english: to bloom
+- index: 1315
+  'on': ! '--------'
+  kun: saki
+  english: promontory
+- index: 1316
+  'on': saku
+  kun: kezu(ru)
+  english: to cut by chipping, to cut down, to cross out
+- index: 1317
+  'on': saku
+  kun: shibo(ru)
+  english: to squeeze
+- index: 1318
+  'on': saku
+  kun: ! '--------'
+  english: to search for
+- index: 1319
+  'on': saku
+  kun: ! '--------'
+  english: to mixed up
+- index: 1320
+  'on': satsu
+  kun: to(ru), ~do(ri)
+  english: to photograph
+- index: 1321
+  'on': satsu
+  kun: su(ru), su(reru)
+  english: to rub
+- index: 1322
+  'on': san
+  kun: kasa
+  english: umbrella
+- index: 1323
+  'on': san, zan
+  kun: miji(me)
+  english: miserable, cruel
+- index: 1324
+  'on': san
+  kun: ! '--------'
+  english: plank bridge
+- index: 1325
+  'on': zan
+  kun: shibara(ku)
+  english: short while
+- index: 1326
+  'on': shi
+  kun: ukaga(u)
+  english: to inquire
+- index: 1327
+  'on': shi
+  kun: sa(su), sa(saru), sashi
+  english: to stab
+- index: 1328
+  'on': shi
+  kun: ! '--------'
+  english: heir
+- index: 1329
+  'on': shi, se
+  kun: hodoko(su)
+  english: to carry out
+- index: 1330
+  'on': shi
+  kun: mune
+  english: purport
+- index: 1331
+  'on': shi
+  kun: ! '--------'
+  english: blessedness
+- index: 1332
+  'on': shi
+  kun: murasaki
+  english: purple
+- index: 1333
+  'on': shi
+  kun: ! '--------'
+  english: limb
+- index: 1334
+  'on': shi
+  kun: abura
+  english: fat
+- index: 1335
+  'on': shi
+  kun: haka(ru)
+  english: to consult
+- index: 1336
+  'on': shi
+  kun: tamawa(ru)
+  english: to deign to give
+- index: 1337
+  'on': shi
+  kun: me~, mesu
+  english: female
+- index: 1338
+  'on': ji
+  kun: samurai
+  english: to attend upon, samurai
+- index: 1339
+  'on': ji
+  kun: itsuku(shimu)
+  english: affectionate
+- index: 1340
+  'on': ji
+  kun: ! '--------'
+  english: to nourish
+- index: 1341
+  'on': ji
+  kun: ! '--------'
+  english: imperial seal
+- index: 1342
+  'on': jiku
+  kun: ! '--------'
+  english: axle, axis
+- index: 1343
+  'on': shitsu, shuu
+  kun: to(ru)
+  english: to execute, to seize
+- index: 1344
+  'on': shitsu
+  kun: shime(ru), shime(su)
+  english: damp
+- index: 1345
+  'on': shitsu
+  kun: urushi
+  english: lacquer
+- index: 1346
+  'on': shitsu
+  kun: ! '--------'
+  english: disease
+- index: 1347
+  'on': ! '--------'
+  kun: shiba
+  english: lawn grass
+- index: 1348
+  'on': sha
+  kun: ! '---------'
+  english: amnesty
+- index: 1349
+  'on': sha
+  kun: nana(me)
+  english: oblique
+- index: 1350
+  'on': sha
+  kun: ni(ru), ~ni, ni(eru)
+  english: to boil
+- index: 1351
+  'on': sha
+  kun: saegi(ru)
+  english: to interrupt
+- index: 1352
+  'on': ja, da
+  kun: hebi
+  english: snake
+- index: 1353
+  'on': ja
+  kun: ! '--------'
+  english: evil
+- index: 1354
+  'on': shaku
+  kun: ! '--------'
+  english: shaku
+- index: 1355
+  'on': shaku
+  kun: ! '--------'
+  english: rank of nobility
+- index: 1356
+  'on': shaku
+  kun: ku(mu)
+  english: to pour wine
+- index: 1357
+  'on': shaku
+  kun: ! '--------'
+  english: to elucidate
+- index: 1358
+  'on': jaku, seki
+  kun: sabi, sabi(shii)
+  english: lonesome
+- index: 1359
+  'on': shu
+  kun: ake
+  english: vermilion
+- index: 1360
+  'on': shu
+  kun: koto
+  english: special
+- index: 1361
+  'on': shu
+  kun: ka(ru), ka(ri)
+  english: hunt
+- index: 1362
+  'on': shu
+  kun: tama
+  english: pearl
+- index: 1363
+  'on': shu
+  kun: omomuki
+  english: flavor, purpose
+- index: 1364
+  'on': ju
+  kun: ! '--------'
+  english: Confucianism
+- index: 1365
+  'on': ju
+  kun: kotobuki
+  english: longevity, Congratulations
+- index: 1366
+  'on': ju
+  kun: ! '--------'
+  english: demand
+- index: 1367
+  'on': shuu
+  kun: ! '--------'
+  english: prisoner
+- index: 1368
+  'on': shuu
+  kun: ure(eru), ure(i)
+  english: melancholy
+- index: 1369
+  'on': shuu
+  kun: hii(deru)
+  english: excellent
+- index: 1370
+  'on': shuu
+  kun: kusa(i)
+  english: bad smell
+- index: 1371
+  'on': shuu
+  kun: fune, funa~, ~bune
+  english: small boat
+- index: 1372
+  'on': shuu
+  kun: oso(u)
+  english: raid
+- index: 1373
+  'on': shuu
+  kun: ! '--------'
+  english: reciprocate
+- index: 1374
+  'on': shuu
+  kun: miniku(i)
+  english: ugly
+- index: 1375
+  'on': juu
+  kun: a(teru)
+  english: fill
+- index: 1376
+  'on': juu, nyuu
+  kun: yawa(raka), yawa(rakai)
+  english: soft
+- index: 1377
+  'on': juu
+  kun: shiru
+  english: juice, soup
+- index: 1378
+  'on': juu
+  kun: shibu, shibu(i)
+  english: not go smoothly, astringent
+- index: 1379
+  'on': juu
+  kun: kemono
+  english: beast
+- index: 1380
+  'on': juu
+  kun: ! '--------'
+  english: gun
+- index: 1381
+  'on': shuku
+  kun: ! '--------'
+  english: younger sibling of parent
+- index: 1382
+  'on': shuku
+  kun: ! '--------'
+  english: graceful
+- index: 1383
+  'on': shuku
+  kun: ! '--------'
+  english: to purge
+- index: 1384
+  'on': juku
+  kun: ! '--------'
+  english: private school
+- index: 1385
+  'on': shun
+  kun: ! '--------'
+  english: brilliant person
+- index: 1386
+  'on': shun
+  kun: matata(ku)
+  english: instant
+- index: 1387
+  'on': jun
+  kun: ! '--------'
+  english: junior
+- index: 1388
+  'on': jun
+  kun: ! '--------'
+  english: to circulate
+- index: 1389
+  'on': jun, shun
+  kun: ! '--------'
+  english: ten-day period
+- index: 1390
+  'on': jun
+  kun: ! '--------'
+  english: die a martyr
+- index: 1391
+  'on': jun
+  kun: uruo(u), uruo(su)
+  english: moist
+- index: 1392
+  'on': jun
+  kun: tate
+  english: shield
+- index: 1393
+  'on': jun
+  kun: megu(ru), megu(ri)
+  english: to make the rounds
+- index: 1394
+  'on': jun
+  kun: ! '--------'
+  english: to obey
+- index: 1395
+  'on': sho
+  kun: ! '--------'
+  english: manifold
+- index: 1396
+  'on': sho, cho
+  kun: o
+  english: outset
+- index: 1397
+  'on': jo
+  kun: ! '--------'
+  english: to describe
+- index: 1398
+  'on': jo
+  kun: ! '--------'
+  english: slowly
+- index: 1399
+  'on': shou
+  kun: tsuguna(u)
+  english: recompense
+- index: 1400
+  'on': shou
+  kun: takumi
+  english: craftsman
+- index: 1401
+  'on': shou
+  kun: masu
+  english: ! 'shou: unit of capacity equiv. to approx. 1.8 liters, used esp. for sake
+    or rice'
+- index: 1402
+  'on': shou
+  kun: me(su)
+  english: to summon
+- index: 1403
+  'on': shou
+  kun: ! '--------'
+  english: to encourage
+- index: 1404
+  'on': shou
+  kun: yoi
+  english: early evening
+- index: 1405
+  'on': shou
+  kun: nao
+  english: still, value highly
+- index: 1406
+  'on': shou
+  kun: toko, yuka
+  english: bed, floor
+- index: 1407
+  'on': shou
+  kun: ! '--------'
+  english: proclaim the merits  of a person (to the public)
+- index: 1408
+  'on': shou
+  kun: ! '--------'
+  english: excerpt
+- index: 1409
+  'on': shou
+  kun: ! '--------'
+  english: palm, to take charge of
+- index: 1410
+  'on': shou
+  kun: nobo(ru)
+  english: to ascend
+- index: 1411
+  'on': shou
+  kun: ! '--------'
+  english: crystal
+- index: 1412
+  'on': shou
+  kun: numa
+  english: muddy pond
+- index: 1413
+  'on': shou
+  kun: ! '--------'
+  english: to have relations with
+- index: 1414
+  'on': shou
+  kun: ko(geru), ase(ru)
+  english: to scorch, be impatient
+- index: 1415
+  'on': shou
+  kun: ! '--------'
+  english: pathological condition,  symptom
+- index: 1416
+  'on': shou
+  kun: ! '--------'
+  english: niter
+- index: 1417
+  'on': shou
+  kun: ! '--------'
+  english: reef
+- index: 1418
+  'on': shou
+  kun: ! '--------'
+  english: auspicious
+- index: 1419
+  'on': shou
+  kun: ! '--------'
+  english: appellation
+- index: 1420
+  'on': shou
+  kun: ! '--------'
+  english: to apply makeup
+- index: 1421
+  'on': shou
+  kun: ! '--------'
+  english: to introduce
+- index: 1422
+  'on': shou
+  kun: ! '--------'
+  english: model
+- index: 1423
+  'on': shou
+  kun: ! '--------'
+  english: to collide
+- index: 1424
+  'on': shou
+  kun: ! '--------'
+  english: to litigate
+- index: 1425
+  'on': shou
+  kun: mikotonori
+  english: imperial edict
+- index: 1426
+  'on': shou
+  kun: kuwa(shii)
+  english: detailed
+- index: 1427
+  'on': shou
+  kun: kane
+  english: bell
+- index: 1428
+  'on': jou
+  kun: take
+  english: stout, stature
+- index: 1429
+  'on': jou
+  kun: ! '--------'
+  english: redundant
+- index: 1430
+  'on': jou
+  kun: ! '--------'
+  english: surplus
+- index: 1431
+  'on': jou
+  kun: ! '--------'
+  english: arable soil
+- index: 1432
+  'on': jou
+  kun: ! '--------'
+  english: young lady
+- index: 1433
+  'on': jou
+  kun: ! '--------'
+  english: clean
+- index: 1434
+  'on': jou
+  kun: tata(mu), tatami
+  english: tatami, to fold up
+- index: 1435
+  'on': jou
+  kun: yuzu(ru)
+  english: to cede, to transfer
+- index: 1436
+  'on': jou
+  kun: kamo(su)
+  english: to brew
+- index: 1437
+  'on': jou
+  kun: ! '--------'
+  english: lock, pill
+- index: 1438
+  'on': shoku
+  kun: ! '--------'
+  english: to charge with
+- index: 1439
+  'on': shoku
+  kun: kaza(ru), kaza(ri)
+  english: to decorate
+- index: 1440
+  'on': shoku
+  kun: fu(eru), fu(yasu)
+  english: to multiply
+- index: 1441
+  'on': shoku
+  kun: fu(reru), sawa(ru)
+  english: to touch
+- index: 1442
+  'on': joku
+  kun: hazukashi(meru)
+  english: to humiliate
+- index: 1443
+  'on': shin
+  kun: no(biru), no(basu)
+  english: to stretch, to rise, to say
+- index: 1444
+  'on': shin
+  kun: oka(su)
+  english: to invade
+- index: 1445
+  'on': shin
+  kun: kuchibiru
+  english: lip
+- index: 1446
+  'on': shin
+  kun: ! '--------'
+  english: to conceive
+- index: 1447
+  'on': shin
+  kun: ne(ru), ne(kasu)
+  english: to go to sleep
+- index: 1448
+  'on': shin
+  kun: ! '--------'
+  english: to examine carefully, to try
+- index: 1449
+  'on': shin
+  kun: tsutsushi(mu)
+  english: prudent, discreet
+- index: 1450
+  'on': shin
+  kun: fu(ru), bu(ru), fu(ri)
+  english: to swing, to wave
+- index: 1451
+  'on': shin
+  kun: hita(su), hita(ru)
+  english: to soak
+- index: 1452
+  'on': shin
+  kun: ! '--------'
+  english: gentleman
+- index: 1453
+  'on': shin
+  kun: takigi
+  english: firewood
+- index: 1454
+  'on': shin
+  kun: mi(ru)
+  english: to examine a patient
+- index: 1455
+  'on': shin
+  kun: kara(i)
+  english: pungent, hard
+- index: 1456
+  'on': shin
+  kun: furu(u), furu(eru)
+  english: to quake, to tremble
+- index: 1457
+  'on': jin
+  kun: ha
+  english: blade
+- index: 1458
+  'on': jin
+  kun: tazu(neru)
+  english: to inquire
+- index: 1459
+  'on': jin
+  kun: ! "hanaha(da),\n        hanaha(dashii)"
+  english: extremely
+- index: 1460
+  'on': jin
+  kun: tsu(kusu), tsu(kiru)
+  english: exhaust
+- index: 1461
+  'on': jin
+  kun: ! '--------'
+  english: swift
+- index: 1462
+  'on': jin
+  kun: ! '--------'
+  english: battle formation, camp
+- index: 1463
+  'on': saku
+  kun: su
+  english: vinegar
+- index: 1464
+  'on': sui
+  kun: fu(ku)
+  english: to blow
+- index: 1465
+  'on': sui
+  kun: ! '--------'
+  english: commander in chief
+- index: 1466
+  'on': sui
+  kun: ta(ku), ~da(ki)
+  english: to cook
+- index: 1467
+  'on': sui
+  kun: ! '--------'
+  english: to sleep
+- index: 1468
+  'on': sui
+  kun: ! '--------'
+  english: to refined, to father
+- index: 1469
+  'on': sui
+  kun: otoro(eru)
+  english: to decline, to weaken
+- index: 1470
+  'on': sui
+  kun: to(geru)
+  english: to accomplish
+- index: 1471
+  'on': sui
+  kun: yo(u), yo(i)
+  english: to become intoxicated
+- index: 1472
+  'on': sui
+  kun: tsumu
+  english: spindle
+- index: 1473
+  'on': zui
+  kun: ! '--------'
+  english: to follow
+- index: 1474
+  'on': zui
+  kun: ! '--------'
+  english: marrow
+- index: 1475
+  'on': suu
+  kun: ! '--------'
+  english: reverence
+- index: 1476
+  'on': suu
+  kun: ! '--------'
+  english: pivot
+- index: 1477
+  'on': ! '--------'
+  kun: su(eru), su(waru)
+  english: to install
+- index: 1478
+  'on': ! '--------'
+  kun: sugi
+  english: cryptomeria
+- index: 1479
+  'on': chou
+  kun: su(mu)
+  english: limpid, clear
+- index: 1480
+  'on': ! '--------'
+  kun: se
+  english: shallows
+- index: 1481
+  'on': ! '--------'
+  kun: se, une
+  english: se, unit of sq. measure equiv. to appprox.0.99 ares or 30 bu, used esp.
+    for measuring filed or farms
+- index: 1482
+  'on': ze
+  kun: kore
+  english: right
+- index: 1483
+  'on': sei, shou
+  kun: ! '--------'
+  english: surname
+- index: 1484
+  'on': sei
+  kun: ! '--------'
+  english: to conquer
+- index: 1485
+  'on': sei
+  kun: ! '--------'
+  english: sacrifice
+- index: 1486
+  'on': sei
+  kun: chika(u)
+  english: to vow
+- index: 1487
+  'on': sei, shin
+  kun: ! "ko(u),\n        u(keru)"
+  english: to request
+- index: 1488
+  'on': sei
+  kun: yu(ku)
+  english: to depart this life
+- index: 1489
+  'on': sei, sai
+  kun: ! '--------'
+  english: uniform
+- index: 1490
+  'on': seki
+  kun: ! '--------'
+  english: one of a pair, counter for ships
+- index: 1491
+  'on': seki
+  kun: ! "o(shii),\n        o(shimu)"
+  english: to regret
+- index: 1492
+  'on': seki
+  kun: ! '--------'
+  english: to expel
+- index: 1493
+  'on': seki
+  kun: ! '--------'
+  english: to analyze
+- index: 1494
+  'on': seki
+  kun: ! '--------'
+  english: register, books
+- index: 1495
+  'on': seki
+  kun: ato
+  english: trace
+- index: 1496
+  'on': setsu
+  kun: ! '--------'
+  english: clumsy
+- index: 1497
+  'on': setsu
+  kun: ! '--------'
+  english: to take in, to act as regent
+- index: 1498
+  'on': setsu
+  kun: ! '--------'
+  english: to steal
+- index: 1499
+  'on': sen
+  kun: ! '--------'
+  english: immortal mountain fairy
+- index: 1500
+  'on': sen
+  kun: ! "shi(meru),\n        urana(u)"
+  english: to occupy, to divine
+- index: 1501
+  'on': sen
+  kun: ougi
+  english: fan
+- index: 1502
+  'on': sen
+  kun: ! '--------'
+  english: stopper
+- index: 1503
+  'on': sen
+  kun: ! "hiso(mu),\n        mogu(ru)"
+  english: to submerge, to lurk
+- index: 1504
+  'on': sen
+  kun: ! '--------'
+  english: gyrate
+- index: 1505
+  'on': sen
+  kun: ! '--------'
+  english: fine, fiber
+- index: 1506
+  'on': sen
+  kun: susu(meru)
+  english: to recommend
+- index: 1507
+  'on': sen
+  kun: ! '--------'
+  english: to implement
+- index: 1508
+  'on': sen
+  kun: ! '--------'
+  english: to transfer
+- index: 1509
+  'on': sen
+  kun: ! '--------'
+  english: pig iron
+- index: 1510
+  'on': sen
+  kun: aza(yaka)
+  english: fresh, vivid
+- index: 1511
+  'on': zen
+  kun: ! '--------'
+  english: gradually
+- index: 1512
+  'on': zen
+  kun: ! '--------'
+  english: zen, zen Buddhism
+- index: 1513
+  'on': zen
+  kun: tsukuro(u)
+  english: to mend
+- index: 1514
+  'on': so
+  kun: ! '--------'
+  english: model
+- index: 1515
+  'on': so
+  kun: ! '--------'
+  english: dispose
+- index: 1516
+  'on': so
+  kun: ! "uto(i),\n        uto(mu)"
+  english: sparse, estrange
+- index: 1517
+  'on': so
+  kun: ishizue
+  english: foundation stone
+- index: 1518
+  'on': so
+  kun: ! '--------'
+  english: land tax
+- index: 1519
+  'on': so
+  kun: ara(i), ara~
+  english: coarse
+- index: 1520
+  'on': so
+  kun: utta(eru)
+  english: to appeal to, to sue
+- index: 1521
+  'on': so
+  kun: haba(mu)
+  english: to obstruct
+- index: 1522
+  'on': sou
+  kun: ! '--------'
+  english: bonze
+- index: 1523
+  'on': sou
+  kun: futa
+  english: set of two
+- index: 1524
+  'on': sou
+  kun: mo
+  english: mourning, to lose
+- index: 1525
+  'on': sou
+  kun: ! '--------'
+  english: vigorous, grand
+- index: 1526
+  'on': sou
+  kun: saga(su)
+  english: to look for
+- index: 1527
+  'on': sou
+  kun: ha(ku)
+  english: to sweep
+- index: 1528
+  'on': sou
+  kun: sa(su)
+  english: to insert
+- index: 1529
+  'on': sou
+  kun: ! '--------'
+  english: sergeant
+- index: 1530
+  'on': sou
+  kun: ! '--------'
+  english: tank
+- index: 1531
+  'on': sou
+  kun: ! '--------'
+  english: to dry up
+- index: 1532
+  'on': sou
+  kun: ! '--------'
+  english: villa, dignified
+- index: 1533
+  'on': sou
+  kun: houmu(ru)
+  english: funeral, to bury (a corpse)
+- index: 1534
+  'on': sou
+  kun: mo
+  english: algae
+- index: 1535
+  'on': sou
+  kun: ! "a(u),\n        a(waseru)"
+  english: to meet with
+- index: 1536
+  'on': sou
+  kun: shimo
+  english: frost
+- index: 1537
+  'on': sou
+  kun: sawa(gu)
+  english: clamor
+- index: 1538
+  'on': zou
+  kun: niku(mu), niku(i)
+  english: hate
+- index: 1539
+  'on': zou, sou
+  kun: oku(ru)
+  english: to present a gift
+- index: 1540
+  'on': soku
+  kun: unaga(su)
+  english: to hasten
+- index: 1541
+  'on': soku
+  kun: sunawa(chi)
+  english: immediate
+- index: 1542
+  'on': zoku
+  kun: ! '--------'
+  english: popular
+- index: 1543
+  'on': zoku
+  kun: ! '--------'
+  english: bandit
+- index: 1544
+  'on': da
+  kun: ! '--------'
+  english: degenerate
+- index: 1545
+  'on': da
+  kun: ! '--------'
+  english: come to terms
+- index: 1546
+  'on': da
+  kun: ! '--------'
+  english: lazy
+- index: 1547
+  'on': da, ta
+  kun: ! '--------'
+  english: good for nothing
+- index: 1548
+  'on': tai
+  kun: ta(eru)
+  english: to withstand
+- index: 1549
+  'on': tai
+  kun: ! "okota(ru),\n        nama(keru)"
+  english: remiss, idle, lazy
+- index: 1550
+  'on': tai
+  kun: ! "ka(eru),\n        ka(waru)"
+  english: replace
+- index: 1551
+  'on': tai
+  kun: ! '--------'
+  english: tranquil
+- index: 1552
+  'on': tai
+  kun: todokoo(ru)
+  english: to stagnate, to stay
+- index: 1553
+  'on': tai
+  kun: ! '--------'
+  english: fetus, womb
+- index: 1554
+  'on': tai
+  kun: fukuro
+  english: bag
+- index: 1555
+  'on': tai
+  kun: ! '--------'
+  english: to catch a criminal
+- index: 1556
+  'on': ! '--------'
+  kun: taki
+  english: waterfall
+- index: 1557
+  'on': taku
+  kun: ! '--------'
+  english: table, prominent
+- index: 1558
+  'on': taku
+  kun: ! '--------'
+  english: to select
+- index: 1559
+  'on': taku
+  kun: ! '--------'
+  english: to open up
+- index: 1560
+  'on': taku
+  kun: sawa
+  english: marsh
+- index: 1561
+  'on': taku
+  kun: ! '--------'
+  english: rinse
+- index: 1562
+  'on': taku
+  kun: ! '--------'
+  english: entrust
+- index: 1563
+  'on': daku
+  kun: nigo(ru)
+  english: turbid, muddy
+- index: 1564
+  'on': daku
+  kun: ! '--------'
+  english: to consent
+- index: 1565
+  'on': ! '--------'
+  kun: tada(shii)
+  english: provided that, however
+- index: 1566
+  'on': datsu
+  kun: uba(u)
+  english: to rob
+- index: 1567
+  'on': datsu
+  kun: ! "nu(gu),\r\n        nu(geru)"
+  english: to remove, to escape from
+- index: 1568
+  'on': ! '--------'
+  kun: tana, ~dana
+  english: shelf
+- index: 1569
+  'on': tan
+  kun: ! '--------'
+  english: vermilion, red
+- index: 1570
+  'on': tan
+  kun: ! "nage(ku),\r\n        nage(kawashii)"
+  english: to sigh
+- index: 1571
+  'on': tan
+  kun: awa(i)
+  english: light
+- index: 1572
+  'on': tan
+  kun: ! "hashi, ha,\r\n        hata"
+  english: end
+- index: 1573
+  'on': tan
+  kun: ! '--------'
+  english: gallbladder, pluck, courage
+- index: 1574
+  'on': tan
+  kun: kita(eru)
+  english: forge
+- index: 1575
+  'on': dan
+  kun: ! "hi(ku),\r\n        hazu(mu), tama"
+  english: projectile, spring back
+- index: 1576
+  'on': chi
+  kun: ! "ha(jiru),\r\n        ha(zukashii)"
+  english: shame
+- index: 1577
+  'on': chi
+  kun: ! '--------'
+  english: stupid
+- index: 1578
+  'on': chi
+  kun: ! '--------'
+  english: childish
+- index: 1579
+  'on': chi
+  kun: ita(su)
+  english: to bring about, to do humbly
+- index: 1580
+  'on': chi
+  kun: ! "oku(reru),\r\n        oso(i)"
+  english: slow, late
+- index: 1581
+  'on': chiku
+  kun: ! '--------'
+  english: livestock
+- index: 1582
+  'on': chiku
+  kun: ! '--------'
+  english: one by one, to drive out
+- index: 1583
+  'on': chitsu
+  kun: ! '--------'
+  english: order
+- index: 1584
+  'on': chitsu
+  kun: ! '--------'
+  english: to choke, nitrogen
+- index: 1585
+  'on': chaku
+  kun: ! '--------'
+  english: legitimate child
+- index: 1586
+  'on': chuu
+  kun: ! '--------'
+  english: to draw out
+- index: 1587
+  'on': chuu
+  kun: ! '--------'
+  english: inner heart
+- index: 1588
+  'on': chuu
+  kun: i(ru)
+  english: cast
+- index: 1589
+  'on': chuu
+  kun: ! '--------'
+  english: stationed
+- index: 1590
+  'on': chou
+  kun: tomura(u)
+  english: condole
+- index: 1591
+  'on': chou
+  kun: ho(ru), ~bo(ri)
+  english: carve
+- index: 1592
+  'on': chou
+  kun: ! '--------'
+  english: levy, symptom
+- index: 1593
+  'on': chou
+  kun: ! "ko(riru),\r\n        ko(rashimeru)"
+  english: to chastise
+- index: 1594
+  'on': chou
+  kun: ido(mu)
+  english: to provoke
+- index: 1595
+  'on': chou
+  kun: naga(meru)
+  english: to look out over
+- index: 1596
+  'on': chou
+  kun: ki(ku)
+  english: to listen
+- index: 1597
+  'on': chou
+  kun: ! '--------'
+  english: swell
+- index: 1598
+  'on': chou
+  kun: ! "ko(eru),\r\n        ko(su)"
+  english: to surpass
+- index: 1599
+  'on': chou
+  kun: ! "ha(neru),\r\n        to(bu)"
+  english: to jump
+- index: 1600
+  'on': choku
+  kun: ! '--------'
+  english: imperial decree
+- index: 1601
+  'on': chin
+  kun: ! '--------'
+  english: imperial we
+- index: 1602
+  'on': chin
+  kun: ! "shizu(mu),\r\n        shizu(meru)"
+  english: to sink
+- index: 1603
+  'on': chin
+  kun: mezura(shii)
+  english: rare
+- index: 1604
+  'on': chin
+  kun: ! "shizu(meru),\r\n        shizu(maru)"
+  english: quell
+- index: 1605
+  'on': chin
+  kun: ! '--------'
+  english: set forth
+- index: 1606
+  'on': shin
+  kun: ! '--------'
+  english: imperial decree
+- index: 1607
+  'on': tsui
+  kun: ! '--------'
+  english: to drop down
+- index: 1608
+  'on': ! '--------'
+  kun: tsuka, ~zuka
+  english: mound
+- index: 1609
+  'on': ! '--------'
+  kun: tsu(keru), ~zuke
+  english: pickle
+- index: 1610
+  'on': ! '--------'
+  kun: tsubo
+  english: tsubo
+- index: 1611
+  'on': chou
+  kun: ! "tsu(ru),\r\n        tsu(ri)"
+  english: angle
+- index: 1612
+  'on': ! '--------'
+  kun: tei
+  english: inn
+- index: 1613
+  'on': tei
+  kun: ! '--------'
+  english: spy
+- index: 1614
+  'on': tei
+  kun: ! '--------'
+  english: chaste
+- index: 1615
+  'on': tei
+  kun: ! '--------'
+  english: present
+- index: 1616
+  'on': tei
+  kun: tsutsumi
+  english: embankment
+- index: 1617
+  'on': tei
+  kun: ! '--------'
+  english: emperor
+- index: 1618
+  'on': tei
+  kun: ! '--------'
+  english: court
+- index: 1619
+  'on': tei
+  kun: ! '--------'
+  english: to resist
+- index: 1620
+  'on': tei
+  kun: ! "shi(maru),\r\n        shi(meru)"
+  english: to conclude, to tighten
+- index: 1621
+  'on': tei
+  kun: ! '--------'
+  english: boat
+- index: 1622
+  'on': tei
+  kun: ! '--------'
+  english: to revise
+- index: 1623
+  'on': tei
+  kun: ! '--------'
+  english: relay
+- index: 1624
+  'on': tei
+  kun: ! '--------'
+  english: stately residence
+- index: 1625
+  'on': dei
+  kun: doro
+  english: mud
+- index: 1626
+  'on': teki
+  kun: tsu(mu)
+  english: to pick
+- index: 1627
+  'on': teki
+  kun: ! "shizuku,\r\n        shitata(ru)"
+  english: drop
+- index: 1628
+  'on': tetsu
+  kun: ! '--------'
+  english: sagacious, philosophy
+- index: 1629
+  'on': tetsu
+  kun: ! '--------'
+  english: to go through
+- index: 1630
+  'on': tetsu
+  kun: ! '--------'
+  english: to withdraw
+- index: 1631
+  'on': tetsu
+  kun: ! '--------'
+  english: alternate
+- index: 1632
+  'on': ten
+  kun: ! "so(eru),\r\n        so(u)"
+  english: to add to
+- index: 1633
+  'on': den, ten
+  kun: tono, ~dono
+  english: palace, formal honorific title
+- index: 1634
+  'on': to
+  kun: ha(ku)
+  english: to spew, to vomit
+- index: 1635
+  'on': to
+  kun: ! "nu(ru),\r\n        nu(ri)"
+  english: to apply on a surface, to paint
+- index: 1636
+  'on': to
+  kun: ! '--------'
+  english: dipper, to
+- index: 1637
+  'on': to
+  kun: ! "wata(ru),\r\n        wata(su)"
+  english: to cross
+- index: 1638
+  'on': to
+  kun: ! '--------'
+  english: way
+- index: 1639
+  'on': do
+  kun: yatsu
+  english: slave, guy
+- index: 1640
+  'on': do
+  kun: ! "ika(ru),\r\n        oko(ru)"
+  english: get angry
+- index: 1641
+  'on': tou
+  kun: tao(reru), ~dao(re)
+  english: to topple
+- index: 1642
+  'on': tou
+  kun: ! "koo(ru),\r\n        kogo(eru)"
+  english: to freeze
+- index: 1643
+  'on': tou
+  kun: kara
+  english: tang dynasty
+- index: 1644
+  'on': tou
+  kun: ! '--------'
+  english: tower
+- index: 1645
+  'on': tou
+  kun: ita(mu)
+  english: tower
+- index: 1646
+  'on': tou
+  kun: ! '--------'
+  english: board
+- index: 1647
+  'on': tou
+  kun: momo
+  english: peach
+- index: 1648
+  'on': tou
+  kun: mune, muna~
+  english: block
+- index: 1649
+  'on': tou
+  kun: nusu(mu)
+  english: to steal
+- index: 1650
+  'on': tou
+  kun: ! '--------'
+  english: smallpox
+- index: 1651
+  'on': tou
+  kun: tsutsu
+  english: tube
+- index: 1652
+  'on': tou
+  kun: ita(ru)
+  english: arrive
+- index: 1653
+  'on': tou
+  kun: ! '--------'
+  english: transcribe
+- index: 1654
+  'on': tou
+  kun: ! "fu(mu),\r\n        fu(maeru)"
+  english: tread
+- index: 1655
+  'on': tou
+  kun: ! "ni(geru),\r\n        noga(su)"
+  english: to escape
+- index: 1656
+  'on': tou
+  kun: ! "su(ku),\r\n        su(keru)"
+  english: pass through, transparent
+- index: 1657
+  'on': tou
+  kun: ! '--------'
+  english: pottery
+- index: 1658
+  'on': tou
+  kun: ! '--------'
+  english: rise
+- index: 1659
+  'on': tou
+  kun: ! '--------'
+  english: fight
+- index: 1660
+  'on': dou
+  kun: hora
+  english: cave
+- index: 1661
+  'on': dou
+  kun: ! '--------'
+  english: trunk
+- index: 1662
+  'on': ! '--------'
+  kun: touge
+  english: mountain pass
+- index: 1663
+  'on': toku
+  kun: ! '--------'
+  english: conceal
+- index: 1664
+  'on': toku
+  kun: ! '--------'
+  english: supervise, commander
+- index: 1665
+  'on': toku
+  kun: ! '--------'
+  english: devoted
+- index: 1666
+  'on': totsu
+  kun: deko
+  english: convex
+- index: 1667
+  'on': totsu
+  kun: tsu(ku)
+  english: dash, thrust
+- index: 1668
+  'on': ton
+  kun: ! '--------'
+  english: station troops
+- index: 1669
+  'on': ton
+  kun: buta
+  english: pig
+- index: 1670
+  'on': don
+  kun: kumo(ru)
+  english: cloudy
+- index: 1671
+  'on': don
+  kun: ! "nibu(i),\r\n        nibu(ru)"
+  english: dull
+- index: 1672
+  'on': ni
+  kun: ama
+  english: Buddhist nun
+- index: 1673
+  'on': ni
+  kun: ! '--------'
+  english: two
+- index: 1674
+  'on': jo, nyo
+  kun: goto(shi)
+  english: as
+- index: 1675
+  'on': nyou
+  kun: ! '--------'
+  english: urine
+- index: 1676
+  'on': nin
+  kun: ! '--------'
+  english: become pregnant
+- index: 1677
+  'on': nin
+  kun: ! '--------'
+  english: to bear
+- index: 1678
+  'on': nei
+  kun: ! '--------'
+  english: courteous
+- index: 1679
+  'on': byou
+  kun: neko
+  english: cat
+- index: 1680
+  'on': nen
+  kun: neba(ru)
+  english: sticky
+- index: 1681
+  'on': nou
+  kun: ! "naya(mu),\r\n        naya(masu)"
+  english: suffer
+- index: 1682
+  'on': nou
+  kun: ko(i)
+  english: thick
+- index: 1683
+  'on': ha, wa
+  kun: ! '--------'
+  english: to grip
+- index: 1684
+  'on': ha
+  kun: ! '--------'
+  english: supremacy
+- index: 1685
+  'on': ba
+  kun: ! '--------'
+  english: old woman
+- index: 1686
+  'on': hai
+  kun: ! "suta(reru),\r\n        suta(ru)"
+  english: to abolish, to waste
+- index: 1687
+  'on': hai
+  kun: ! '--------'
+  english: to exclude, to discharge
+- index: 1688
+  'on': hai
+  kun: sakazuki
+  english: cup
+- index: 1689
+  'on': hai
+  kun: ! '--------'
+  english: fellow
+- index: 1690
+  'on': bai
+  kun: tsuchika(u)
+  english: cultivate
+- index: 1691
+  'on': bai
+  kun: ! '--------'
+  english: intermediate
+- index: 1692
+  'on': bai
+  kun: ! '--------'
+  english: compensate
+- index: 1693
+  'on': bai
+  kun: ! '--------'
+  english: accompany a superior
+- index: 1694
+  'on': haku
+  kun: ! '--------'
+  english: older sibling of parent, count
+- index: 1695
+  'on': haku, hyou
+  kun: ! '--------'
+  english: beat
+- index: 1696
+  'on': haku
+  kun: ! "to(maru),\r\n        to(meru)"
+  english: stay overnight
+- index: 1697
+  'on': haku
+  kun: ! '--------'
+  english: oceangoing ship
+- index: 1698
+  'on': haku
+  kun: usu(i), usu~
+  english: thin
+- index: 1699
+  'on': haku
+  kun: sema(ru)
+  english: to press
+- index: 1700
+  'on': baku
+  kun: ! '--------'
+  english: desert, obscure
+- index: 1701
+  'on': baku
+  kun: ! '--------'
+  english: to explode
+- index: 1702
+  'on': baku
+  kun: shiba(ru)
+  english: to bind
+- index: 1703
+  'on': ! '--------'
+  kun: hada
+  english: skin
+- index: 1704
+  'on': hachi, hatsu
+  kun: ! '--------'
+  english: bowl
+- index: 1705
+  'on': hatsu
+  kun: kami
+  english: hair
+- index: 1706
+  'on': batsu
+  kun: ! '--------'
+  english: to cut down
+- index: 1707
+  'on': batsu, bachi
+  kun: ! '--------'
+  english: punishment
+- index: 1708
+  'on': batsu
+  kun: ! "nu(ku),\r\n        nu(keru)"
+  english: to pull out, to stand out
+- index: 1709
+  'on': batsu
+  kun: ! '--------'
+  english: clique
+- index: 1710
+  'on': han, ban
+  kun: tomona(u)
+  english: accompany
+- index: 1711
+  'on': han
+  kun: ho
+  english: sail
+- index: 1712
+  'on': han
+  kun: ! '--------'
+  english: carry
+- index: 1713
+  'on': han
+  kun: ! '--------'
+  english: waterside
+- index: 1714
+  'on': han
+  kun: shige(ru)
+  english: thrive
+- index: 1715
+  'on': han
+  kun: ! '--------'
+  english: sort
+- index: 1716
+  'on': han
+  kun: ! '--------'
+  english: feudal domain (governed by a daimyo in Edo Japan), feudal clan
+- index: 1717
+  'on': han
+  kun: ! '--------'
+  english: engage in sales
+- index: 1718
+  'on': han
+  kun: ! '--------'
+  english: model
+- index: 1719
+  'on': han
+  kun: ! '--------'
+  english: vexed, annoyed, irritated 
+- index: 1720
+  'on': han
+  kun: ! '--------'
+  english: distribute widely
+- index: 1721
+  'on': ban
+  kun: ! '--------'
+  english: disk, board
+- index: 1722
+  'on': ban
+  kun: ! '--------'
+  english: barbarian
+- index: 1723
+  'on': hi
+  kun: ! "iya(shii),\r\n        iya(shimu)"
+  english: mean
+- index: 1724
+  'on': hi
+  kun: ! '--------'
+  english: princess
+- index: 1725
+  'on': hi
+  kun: kare, kano
+  english: third person pronoun
+- index: 1726
+  'on': hi
+  kun: tobira
+  english: hinged door
+- index: 1727
+  'on': hi
+  kun: ! '--------'
+  english: open out
+- index: 1728
+  'on': hitsu, hi
+  kun: ! '--------'
+  english: secrete
+- index: 1729
+  'on': hi
+  kun: ! "tsuka(reru),\r\n        ~zuka(re)"
+  english: tired
+- index: 1730
+  'on': hi
+  kun: ! '--------'
+  english: monument
+- index: 1731
+  'on': hi
+  kun: ! '--------'
+  english: dismiss
+- index: 1732
+  'on': hi
+  kun: koumu(ru)
+  english: be subject to
+- index: 1733
+  'on': hi
+  kun: sa(keru)
+  english: avoid
+- index: 1734
+  'on': bi
+  kun: o
+  english: tail
+- index: 1735
+  'on': bi
+  kun: kasu(ka)
+  english: slight
+- index: 1736
+  'on': hitsu
+  kun: hiki
+  english: counter for animals
+- index: 1737
+  'on': ki
+  kun: hime
+  english: daughter of noble birth
+- index: 1738
+  'on': hyou
+  kun: tadayo(u)
+  english: drift
+- index: 1739
+  'on': byou
+  kun: ega(ku)
+  english: depict
+- index: 1740
+  'on': byou, myou
+  kun: nae, nawa~
+  english: seedling
+- index: 1741
+  'on': hin
+  kun: hama
+  english: beach
+- index: 1742
+  'on': hin
+  kun: ! '--------'
+  english: guest
+- index: 1743
+  'on': hin
+  kun: ! '--------'
+  english: frequently
+- index: 1744
+  'on': bin
+  kun: ! '--------'
+  english: nimble
+- index: 1745
+  'on': bin
+  kun: ! '--------'
+  english: bottle
+- index: 1746
+  'on': fu
+  kun: ! "kowa(i),\r\n        kowa(garu)"
+  english: fearful
+- index: 1747
+  'on': fu
+  kun: ! '--------'
+  english: lend support to
+- index: 1748
+  'on': fu
+  kun: shi(ku), ~shi(ki)
+  english: to lay
+- index: 1749
+  'on': fu
+  kun: ! '--------'
+  english: widespread
+- index: 1750
+  'on': fu
+  kun: ! "u(ku),\r\n        u(kabu)"
+  english: float
+- index: 1751
+  'on': fu
+  kun: ! '--------'
+  english: symbol
+- index: 1752
+  'on': fu
+  kun: ! "kusa(ru),\r\n        kusa(reru)"
+  english: rot
+- index: 1753
+  'on': fu
+  kun: ! '--------'
+  english: skin
+- index: 1754
+  'on': fu
+  kun: ! '--------'
+  english: systematic record
+- index: 1755
+  'on': fu
+  kun: ! '--------'
+  english: installment
+- index: 1756
+  'on': fu
+  kun: omomu(ku)
+  english: proceed to
+- index: 1757
+  'on': fu
+  kun: ! '--------'
+  english: attach
+- index: 1758
+  'on': bu
+  kun: anado(ru)
+  english: insult
+- index: 1759
+  'on': bu
+  kun: ma(u), mai
+  english: attach
+- index: 1760
+  'on': fuu, hou
+  kun: ! '--------'
+  english: seal
+- index: 1761
+  'on': fuku
+  kun: ! "fu(seru),\r\n        fu(su)"
+  english: prostrate
+- index: 1762
+  'on': fuku
+  kun: haba
+  english: width
+- index: 1763
+  'on': fuku
+  kun: ! "oo(u),\r\n        kutsugae(su)"
+  english: cover, overturn
+- index: 1764
+  'on': futsu
+  kun: hara(u), ~hara(i)
+  english: clear away, pay
+- index: 1765
+  'on': futsu
+  kun: ! "wa(ku),\r\n        wa(kasu)"
+  english: boil
+- index: 1766
+  'on': fun
+  kun: fu(ku)
+  english: spout
+- index: 1767
+  'on': fun
+  kun: ! '--------'
+  english: tumulus
+- index: 1768
+  'on': fun
+  kun: ikidoo(ru)
+  english: indignation
+- index: 1769
+  'on': fun
+  kun: ! "magi(reru),\r\n        magi(rawashii)"
+  english: confused
+- index: 1770
+  'on': fun
+  kun: ! '--------'
+  english: atmosphere
+- index: 1771
+  'on': hei
+  kun: ! '--------'
+  english: third
+- index: 1772
+  'on': hei
+  kun: awa(seru)
+  english: together
+- index: 1773
+  'on': hei
+  kun: ! '--------'
+  english: fence
+- index: 1774
+  'on': hei
+  kun: ! '--------'
+  english: currency
+- index: 1775
+  'on': hei
+  kun: ! '--------'
+  english: evil practice
+- index: 1776
+  'on': hei
+  kun: gara
+  english: character, handle
+- index: 1777
+  'on': heki
+  kun: kabe
+  english: wall
+- index: 1778
+  'on': heki
+  kun: ! "kuse,\r\n        kuse(ni)"
+  english: habit
+- index: 1779
+  'on': hen
+  kun: katayo(ru)
+  english: one-sided
+- index: 1780
+  'on': hen
+  kun: ! '--------'
+  english: all over
+- index: 1781
+  'on': ho
+  kun: ! '--------'
+  english: pave, shop
+- index: 1782
+  'on': ho
+  kun: ! "to(raeru),\r\n        tsuka(maru)"
+  english: to catch
+- index: 1783
+  'on': sui
+  kun: ho
+  english: spike
+- index: 1784
+  'on': bo
+  kun: tsuno(ru)
+  english: to raise
+- index: 1785
+  'on': bo
+  kun: shita(u)
+  english: adore
+- index: 1786
+  'on': bo
+  kun: ! '--------'
+  english: recorded book
+- index: 1787
+  'on': hou
+  kun: nara(u)
+  english: copy after
+- index: 1788
+  'on': hou
+  kun: ! '--------'
+  english: salary
+- index: 1789
+  'on': hou, bu
+  kun: tatematsu(ru)
+  english: dedicate
+- index: 1790
+  'on': hou
+  kun: mine
+  english: peak
+- index: 1791
+  'on': hou
+  kun: ! "kuzu(reru),\r\n        kuzu(su)"
+  english: crumble

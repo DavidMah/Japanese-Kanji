@@ -56,7 +56,7 @@
   };
   createImage = function(index, parent) {
     var image_url;
-    image_url = "../image/" + index + ".gif";
+    image_url = "image/" + index + ".gif";
     return $.ajax({
       url: image_url,
       type: 'HEAD',
@@ -183,7 +183,7 @@
     return modal.css('left', "" + (window.mouseX + 5) + "px");
   };
   prepareKanjiData = function() {
-    return $.get('../data/kanji.json', function(data) {
+    return $.get('data/kanji.json', function(data) {
       return window.kanji = data;
     });
   };

@@ -1,2 +1,32 @@
-<a href="final/1.html">Kanji Pages</a>
-<a href="random/random.html">Random Page</a>
+<!DOCTYPE html>
+<html lang="en" xmlns:fb="http://www.facebook.com/2008/fbml">
+  <head>
+    <meta charset="utf-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="random/behavior.js" type="text/javascript"></script>
+    <link  href="random/style.css"   type="text/css" rel="stylesheet"/>
+    <title>Random Kanji</title>
+  </head>
+  <body>
+    <div id="content">
+      <div id="control">
+        <textarea id="numbers" rows=10 cols=40></textarea>
+        <button   id="shuffle"> Shuffle </button>
+        <button   id="create"> Generate </button>
+
+
+        <input type="text" id="lowerbound" value="1"   size=4 maxlength=4 />
+        <input type="text" id="upperbound" value="100" size=4 maxlength=4 />
+        <button  id="autofill">Add</button>
+        <button  id="clear">Clear</button>
+
+        <br />
+        <input type="text" id="quantity" value="100" size=4 maxlength=4 />
+        <button  id="randomselect">Choose Randomly</button>
+
+      </div>
+      <div id="images"></div>
+      <div id="kanji_modal" ></div>
+    </div>
+  </body>
+</html>

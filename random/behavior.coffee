@@ -52,7 +52,7 @@ fillGrid = (elements) ->
 # Given a kanji index, appends the image for that Kanji to the grid if the image exists
 createImage = (index, parent) ->
   # Make sure file exists
-  image_url = "../image/#{index}.gif"
+  image_url = "image/#{index}.gif"
   $.ajax({
     url     : image_url,
     type    : 'HEAD',
@@ -171,5 +171,5 @@ reactToMouseMove = (event) ->
 ## Actual Data handling(like JSON crap)
 # Store definition objects in window.kanji
 prepareKanjiData = () ->
-  $.get('../data/kanji.json', (data) ->
+  $.get('data/kanji.json', (data) ->
     window.kanji = data)
