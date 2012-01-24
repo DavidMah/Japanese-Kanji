@@ -3508,398 +3508,497 @@
   'on': kou, kyou
   kun: oko(ru), oko(su)
   english: ! ' to prosper, amusement '
+  kanji: 興
 - index: 703
   'on': kou
   kun: ! '--------'
   english: to lecture
+  kanji: 講
 - index: 704
   'on': kon
   kun: ma(jiru), ma(zaru)
   english: to mix
+  kanji: 混
 - index: 705
   'on': sa
   kun: ! '--------'
   english: to look into
+  kanji: 査
 - index: 706
   'on': sai, sa
   kun: futata(bi)
   english: another time
+  kanji: 再
 - index: 707
   'on': sai
   kun: wazawa(i)
   english: natural calamity
+  kanji: 災
 - index: 708
   'on': sai
   kun: tsuma
   english: wife
+  kanji: 妻
 - index: 709
   'on': sai
   kun: to(ru)
   english: ! ' to pick, to gather '
+  kanji: 採
 - index: 710
   'on': sai
   kun: kiwa, ~giwa
   english: ! ' verge, occasion '
+  kanji: 際
 - index: 711
   'on': zai
   kun: a(ru)
   english: ! ' to be, to stay '
+  kanji: 在
 - index: 712
   'on': zai, sai
   kun: ! '--------'
   english: ! ' wealth, finance '
+  kanji: 財
 - index: 713
   'on': zai
   kun: tsumi
   english: ! ' crime, sin '
+  kanji: 罪
 - index: 714
   'on': zatsu, zou
   kun: ! '--------'
   english: ! ' miscellaneous, mixed '
+  kanji: 雑
 - index: 715
   'on': san
   kun: su(i)
   english: ! ' acid, oxygen '
+  kanji: 酸
 - index: 716
   'on': san
   kun: ! '--------'
   english: ! ' to approve of, to praise '
+  kanji: 賛
 - index: 717
   'on': shi
   kun: sasa(eru)
   english: ! ' branch, to support '
+  kanji: 支
 - index: 718
   'on': shi
   kun: kokoroza(su), kokorozashi
   english: ambition
+  kanji: 志
 - index: 719
   'on': shi
   kun: eda
   english: branch
+  kanji: 枝
 - index: 720
   'on': shi
   kun: ! '--------'
   english: ! ' master, teacher '
+  kanji: 師
 - index: 721
   'on': shi
   kun: ! '--------'
   english: ! ' resources, funds, natural ability '
+  kanji: 資
 - index: 722
   'on': shi
   kun: ka(u)
   english: to raise animals
+  kanji: 飼
 - index: 723
   'on': shi, ji
   kun: shime(su)
   english: to show
+  kanji: 示
 - index: 724
   'on': ji
   kun: ni(ru)
   english: to resemble
+  kanji: 似
 - index: 725
   'on': shiki
   kun: ! '--------'
   english: ! ' to discriminate, knowledge '
+  kanji: 識
 - index: 726
   'on': shitsu, shichi, chi
   kun: ! '--------'
   english: ! ' quality, matter '
+  kanji: 質
 - index: 727
   'on': sha
   kun: ! '--------'
   english: ! ' building, house, dormitory '
+  kanji: 舎
 - index: 728
   'on': sha
   kun: ayama(ru)
   english: ! ' to thank, to apologize '
+  kanji: 謝
 - index: 729
   'on': ju
   kun: sazu(keru), sazu(karu)
   english: ! ' to confer, to teach '
+  kanji: 授
 - index: 730
   'on': shuu, shu
   kun: osa(meru), osa(maru)
   english: ! ' to cultivate, to repair '
+  kanji: 修
 - index: 731
   'on': jutsu
   kun: no(beru)
   english: ! ' to state '
+  kanji: 述
 - index: 732
   'on': jutsu
   kun: ! '--------'
   english: practical art
+  kanji: 術
 - index: 733
   'on': jun
   kun: ! '--------'
   english: ! ' standard, quasi~ '
+  kanji: 準
 - index: 734
   'on': jo
   kun: ! '--------'
   english: ! ' introductory part, to order '
+  kanji: 序
 - index: 735
   'on': shou
   kun: mane(ku)
   english: to invite
+  kanji: 招
 - index: 736
   'on': shou
   kun: uketamawa(ru)
   english: to agree to
+  kanji: 承
 - index: 737
   'on': shou
   kun: ! '--------'
   english: ! ' to prove, certificate '
+  kanji: 証
 - index: 738
   'on': jou
   kun: ! '--------'
   english: article
+  kanji: 条
 - index: 739
   'on': jou
   kun: ! '--------'
   english: ! ' form, condition, letter '
+  kanji: 状
 - index: 740
   'on': jou
   kun: tsune, toko~
   english: ! ' normal, regular '
+  kanji: 常
 - index: 741
   'on': jou, sei
   kun: nasa(ke)
   english: emotion, actual conditions
+  kanji: 情
 - index: 742
   'on': shoku, shiki
   kun: o(ru), ori
   english: to weave, to organize
+  kanji: 織
 - index: 743
   'on': shoku
   kun: ! '--------'
   english: employment
+  kanji: 職
 - index: 744
   'on': sei
   kun: ! '--------'
   english: ! ' system, to control '
+  kanji: 制
 - index: 745
   'on': sei, shou
   kun: ! '--------'
   english: ! ' nature, sex, ~ity '
+  kanji: 性
 - index: 746
   'on': sei, shou
   kun: matsurigoto
   english: political administration
+  kanji: 政
 - index: 747
   'on': sei
   kun: ikio(i)
   english: power
+  kanji: 勢
 - index: 748
   'on': sei, shou
   kun: ! '--------'
   english: ! ' refine, essence, spirit '
+  kanji: 精
 - index: 749
   'on': sei
   kun: ! '--------'
   english: manufacture
+  kanji: 製
 - index: 750
   'on': zei
   kun: ! '--------'
   english: tax
+  kanji: 税
 - index: 751
   'on': seki
   kun: se(meru)
   english: ! ' responsibility, to blame '
+  kanji: 責
 - index: 752
   'on': seki
   kun: ! '--------'
   english: achievements
+  kanji: 績
 - index: 753
   'on': setsu
   kun: tsu(gu)
   english: ! ' to contact, to connect '
+  kanji: 接
 - index: 754
   'on': setsu
   kun: mou(keru)
   english: to set up
+  kanji: 設
 - index: 755
   'on': zetsu
   kun: shita
   english: tongue
+  kanji: 舌
 - index: 756
   'on': zetsu
   kun: ta(eru), ta(tsu)
   english: ! ' to break off, to come to an end '
+  kanji: 絶
 - index: 757
   'on': sen
   kun: zeni
   english: money
+  kanji: 銭
 - index: 758
   'on': so
   kun: ! '--------'
   english: ancestor
+  kanji: 祖
 - index: 759
   'on': so, su
   kun: moto
   english: ! ' element, plain '
+  kanji: 素
 - index: 760
   'on': sou
   kun: ! '--------'
   english: ! ' total, general '
+  kanji: 総
 - index: 761
   'on': zou
   kun: tsuku(ru), tsuku(ri)
   english: to make
+  kanji: 造
 - index: 762
   'on': zou
   kun: ! '--------'
   english: image
+  kanji: 像
 - index: 763
   'on': zou
   kun: ma(su), fu(eru)
   english: to increase
+  kanji: 増
 - index: 764
   'on': soku
   kun: nori
   english: rule
+  kanji: 則
 - index: 765
   'on': soku
   kun: haka(ru)
   english: ! ' to measure, to conjecture '
+  kanji: 測
 - index: 766
   'on': zoku
   kun: ! '--------'
   english: ! ' to belong to, genus '
+  kanji: 属
 - index: 767
   'on': sotsu, ritsu
   kun: hiki(iru)
   english: ! ' rate, to lead '
+  kanji: 率
 - index: 768
   'on': son
   kun: soko(nau), soko(neru)
   english: loss
+  kanji: 損
 - index: 769
   'on': tai
   kun: shirizo(ku)
   english: ! ' to retreat, to retire '
+  kanji: 退
 - index: 770
   'on': tai
   kun: ka(su), kashi~
   english: ! ' to lend, for rent '
+  kanji: 貸
 - index: 771
   'on': tai
   kun: ! '--------'
   english: state, attitude
+  kanji: 態
 - index: 772
   'on': dan, ton
   kun: ! '--------'
   english: body, group, corporation
+  kanji: 団
 - index: 773
   'on': dan
   kun: ta(tsu), kotowa(ru)
   english: ! ' to cut off, to resolve '
+  kanji: 断
 - index: 774
   'on': chiku
   kun: kizu(ku)
   english: to construct
+  kanji: 築
 - index: 775
   'on': chou
   kun: ha(ru), ~ba(ri)
   english: ! ' to spread, to strain '
+  kanji: 張
 - index: 776
   'on': tei, chou
   kun: sa(geru)
   english: to present
+  kanji: 提
 - index: 777
   'on': tei
   kun: hodo
   english: ! ' extent, established form '
+  kanji: 程
 - index: 778
   'on': teki
   kun: ! '--------'
   english: suitable
+  kanji: 適
 - index: 779
   'on': teki
   kun: kataki
   english: enemy
+  kanji: 敵
 - index: 780
   'on': tou
   kun: su(beru)
   english: ! ' to unite,  interconnected system '
+  kanji: 統
 - index: 781
   'on': dou
   kun: ! '--------'
   english: copper
+  kanji: 銅
 - index: 782
   'on': dou
   kun: michibi(ku)
   english: to guide
+  kanji: 導
 - index: 783
   'on': toku
   kun: ! '--------'
   english: virtue
+  kanji: 徳
 - index: 784
   'on': doku
   kun: hito(ri)
   english: ! ' alone, Germany '
+  kanji: 独
 - index: 785
   'on': nin
   kun: maka(seru), maka(su)
   english: ! ' office, leave to '
+  kanji: 任
 - index: 786
   'on': nen
   kun: mo(eru), mo(yasu)
   english: to burn
+  kanji: 燃
 - index: 787
   'on': nou
   kun: ! '--------'
   english: ability
+  kanji: 能
 - index: 788
   'on': ha
   kun: yabu(ru), yabu(reru)
   english: to break
+  kanji: 破
 - index: 789
   'on': han
   kun: oka(su)
   english: offence
+  kanji: 犯
 - index: 790
   'on': han, ban
   kun: ! '--------'
   english: judge
+  kanji: 判
 - index: 791
   'on': han
   kun: ! '--------'
   english: ! ' printing plate, publishing '
+  kanji: 版
 - index: 792
   'on': hi
   kun: kura(beru)
   english: to compare
+  kanji: 比
 - index: 793
   'on': hi
   kun: ko(eru), ko(yasu)
   english: to fatten
+  kanji: 肥
 - index: 794
   'on': hi
   kun: ! '--------'
   english: is not
+  kanji: 非
 - index: 795
   'on': bi
   kun: sona(eru), sona(waru)
   english: to provide
+  kanji: 備
 - index: 796
   'on': hyou
   kun: tawara
   english: straw sack
+  kanji: 俵
 - index: 797
   'on': hyou
   kun: ! '--------'
   english: ! ' to comment, to evaluate '
+  kanji: 評
 - index: 798
   'on': hin, bin
   kun: mazu(shii)
   english: poor
+  kanji: 貧
 - index: 799
   'on': fu
   kun: nuno
   english: ! ' cloth, to spread '
+  kanji: 布
 - index: 800
   'on': fu
   kun: ! '--------'
   english: adult woman
+  kanji: 婦
 - index: 801
   'on': fu, fuu
   kun: to(mu), tomi
