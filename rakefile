@@ -1,0 +1,32 @@
+require 'fileutils'
+task :default => [:build]
+
+desc "deploy to master"
+task :deploy do
+  sh %{ssh ubuntu@davidpmah.com "cd ~/apps/kanji && git pull origin master"}
+end
+
+desc "sync the code with the testing ground"
+task :push_to_test do
+  sh %{rsync -avz ./* ubuntu@davidpmah.com:~/test/kanji/}
+end
+
+desc "builds files from source"
+task :build => [:extract_kanji, :compile_coffee] do
+  puts "\033[32mBuild Completed!\033[0m"
+end
+
+desc "retrieve kanji from kanji symbol list"
+task :merge_kanji do
+  sh %{cd data && ruby merge_kanji.rb}
+end
+
+desc "extract kanji yaml into json"
+task :extract_kanji => [:merge_kanji] do
+  sh %{cd data && ruby extract.rb}
+end
+
+desc "compile coffeescript"
+task :compile_coffee do
+  sh %{coffee -c random/behavior.coffee}
+end
