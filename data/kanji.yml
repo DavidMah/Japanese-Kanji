@@ -4008,398 +4008,497 @@
   'on': bu, mu
   kun: ! '--------'
   english: military
+  kanji: 武
 - index: 803
   'on': fuku
   kun: ! '--------'
   english: to return to
+  kanji: 復
 - index: 804
   'on': fuku
   kun: ! '--------'
   english: compound, duplicate
+  kanji: 複
 - index: 805
   'on': butsu, futsu
   kun: hotoke
   english: Buddha, France
+  kanji: 仏
 - index: 806
   'on': hen
   kun: a(mu), ~a(mi)
   english: to compile, to knit
+  kanji: 編
 - index: 807
   'on': ben
   kun: ! '--------'
   english: to speak eloquently, valve
+  kanji: 弁
 - index: 808
   'on': ho, hou
   kun: tamo(tsu)
   english: to preserve, to insure
+  kanji: 保
 - index: 809
   'on': bo
   kun: haka
   english: grave
+  kanji: 墓
 - index: 810
   'on': hou
   kun: muku(iru), muku(u)
   english: to inform, to requite
+  kanji: 報
 - index: 811
   'on': hou
   kun: yuta(ka)
   english: plentiful
+  kanji: 豊
 - index: 812
   'on': bou
   kun: fuse(gu)
   english: to prevent, to defend
+  kanji: 防
 - index: 813
   'on': bou
   kun: ! '--------'
   english: to trade
+  kanji: 貿
 - index: 814
   'on': bou, baku
   kun: aba(ku), aba(reru)
   english: violent, sudden
+  kanji: 暴
 - index: 815
   'on': mu
   kun: tsuto(meru)
   english: duty, affairs
+  kanji: 務
 - index: 816
   'on': mu
   kun: yume
   english: dream
+  kanji: 夢
 - index: 817
   'on': mei
   kun: mayo(u)
   english: to be puzzled
+  kanji: 迷
 - index: 818
   'on': men
   kun: wata
   english: cotton
+  kanji: 綿
 - index: 819
   'on': yu
   kun: ! '--------'
   english: to transport
+  kanji: 輸
 - index: 820
   'on': yo
   kun: ama(ru), ara(ri)
   english: remaining, excess
+  kanji: 余
 - index: 821
   'on': yo
   kun: azu(keru), azu(karu)
   english: to deposit
+  kanji: 預
 - index: 822
   'on': you
   kun: ! '--------'
   english: appearance, contain
+  kanji: 容
 - index: 823
   'on': ryaku
   kun: ! '--------'
   english: abridged, strategy
+  kanji: 略
 - index: 824
   'on': ryuu, ru
   kun: to(meru), to(maru)
   english: to keep, to stay
+  kanji: 留
 - index: 825
   'on': ryou
   kun: ! '--------'
   english: territory
+  kanji: 領
 - index: 826
   'on': i
   kun: koto, koto(naru)
   english: different
+  kanji: 異
 - index: 827
   'on': i, yui
   kun: ! '--------'
   english: to leave behind
+  kanji: 遺
 - index: 828
   'on': iki
   kun: ! '--------'
   english: bounded area
+  kanji: 域
 - index: 829
   'on': u
   kun: ! '--------'
   english: universe
+  kanji: 宇
 - index: 830
   'on': ei
   kun: utsu(ru), ha(eru)
   english: to reflect, to project
+  kanji: 映
 - index: 831
   'on': en
   kun: no(biru), no(beru)
   english: to extend, to postpone
+  kanji: 延
 - index: 832
   'on': en
   kun: so(u), ~zo(i)
   english: along
+  kanji: 沿
 - index: 833
   'on': ga
   kun: ware, waga~
   english: self
+  kanji: 我
 - index: 834
   'on': kai
   kun: hai
   english: ash
+  kanji: 灰
 - index: 835
   'on': kaku
   kun: ! '--------'
   english: to enlarge
+  kanji: 拡
 - index: 836
   'on': kaku
   kun: kawa
   english: leather, to reform
+  kanji: 革
 - index: 837
   'on': kaku
   kun: ! '--------'
   english: tall magnificent building,  cabinet
+  kanji: 閣
 - index: 838
   'on': katsu
   kun: wa(ru), sa(ku)
   english: to divide
+  kanji: 割
 - index: 839
   'on': ! '--------'
   kun: kabu
   english: stock, stump
+  kanji: 株
 - index: 840
   'on': kan
   kun: ho(su), hi(ru)
   english: dry
+  kanji: 干
 - index: 841
   'on': kan
   kun: ma(ku), maki
   english: to roll up, volume
+  kanji: 巻
 - index: 842
   'on': kan
   kun: ! '--------'
   english: to watch, to care for
+  kanji: 看
 - index: 843
   'on': kan
   kun: ! '--------'
   english: simple
+  kanji: 簡
 - index: 844
   'on': ki
   kun: abu(nai), aya(ui)
   english: dangerous
+  kanji: 危
 - index: 845
   'on': ki
   kun: tsukue
   english: desk, table
+  kanji: 机
 - index: 846
   'on': ki
   kun: ! '--------'
   english: wield
+  kanji: 揮
 - index: 847
   'on': ki
   kun: tatto(i), touto(i)
   english: noble, your honorable
+  kanji: 貴
 - index: 848
   'on': gi
   kun: utaga(u)
   english: to doubt
+  kanji: 疑
 - index: 849
   'on': kyuu
   kun: su(u)
   english: to suck, to breath in
+  kanji: 吸
 - index: 850
   'on': kyou, ku
   kun: sona(eru), tomo
   english: to offer
+  kanji: 供
 - index: 851
   'on': kyou
   kun: mune, muna~
   english: chest
+  kanji: 胸
 - index: 852
   'on': kyou, gou
   kun: sato
   english: hometown
+  kanji: 郷
 - index: 853
   'on': kin, gon
   kun: tsuto(meru), tsuto(maru)
   english: service
+  kanji: 勤
 - index: 854
   'on': kin
   kun: suji
   english: muscle, threadlike structure
+  kanji: 筋
 - index: 855
   'on': kei
   kun: ! '--------'
   english: system, lineage
+  kanji: 系
 - index: 856
   'on': kei
   kun: uyama(u)
   english: to respect
+  kanji: 敬
 - index: 857
   'on': kei
   kun: ! '--------'
   english: guard against, to warn
+  kanji: 警
 - index: 858
   'on': geki
   kun: ! '--------'
   english: drama
+  kanji: 劇
 - index: 859
   'on': geki
   kun: hage(shii)
   english: violent
+  kanji: 激
 - index: 860
   'on': ketsu
   kun: ana
   english: hole
+  kanji: 穴
 - index: 861
   'on': ken
   kun: kinu
   english: silk
+  kanji: 絹
 - index: 862
   'on': ken, gon
   kun: ! '--------'
   english: right, power
+  kanji: 権
 - index: 863
   'on': ken
   kun: ! '--------'
   english: constitution
+  kanji: 憲
 - index: 864
   'on': gen
   kun: minamoto
   english: source
+  kanji: 源
 - index: 865
   'on': gen, gon
   kun: ogoso(ka), kibi(shii)
   english: severe, solemn
+  kanji: 厳
 - index: 866
   'on': ko, ki
   kun: onore
   english: oneself
+  kanji: 己
 - index: 867
   'on': ko
   kun: yo(bu)
   english: to call
+  kanji: 呼
 - index: 868
   'on': go
   kun: ayama(ru)
   english: mistake
+  kanji: 誤
 - index: 869
   'on': kou
   kun: ! '--------'
   english: empress
+  kanji: 后
 - index: 870
   'on': kou
   kun: ! '--------'
   english: filial piety
+  kanji: 孝
 - index: 871
   'on': kou, ou
   kun: ! '--------'
   english: emperor
+  kanji: 皇
 - index: 872
   'on': kou, ku
   kun: beni, kurenai
   english: crimson
+  kanji: 紅
 - index: 873
   'on': kou
   kun: o(riru), fu(ru)
   english: to descend, to surrender
+  kanji: 降
 - index: 874
   'on': kou
   kun: hagane
   english: steel
+  kanji: 鋼
 - index: 875
   'on': koku
   kun: kiza(mu), kiza(mi)
   english: to engrave, point of time
+  kanji: 刻
 - index: 876
   'on': koku
   kun: ! '--------'
   english: cereal
+  kanji: 穀
 - index: 877
   'on': kotsu
   kun: hone
   english: bone
+  kanji: 骨
 - index: 878
   'on': kon
   kun: koma(ru)
   english: be in trouble
+  kanji: 困
 - index: 879
   'on': sa, sha
   kun: suna
   english: sand
+  kanji: 砂
 - index: 880
   'on': za
   kun: suwa(ru)
   english: seat, to sit
+  kanji: 座
 - index: 881
   'on': sai
   kun: su(mu), ~zu(mi)
   english: to settle, to relieve
+  kanji: 済
 - index: 882
   'on': sai
   kun: ta(tsu), saba(ku)
   english: to cut out, to judge
+  kanji: 裁
 - index: 883
   'on': saku
   kun: ! '--------'
   english: scheme, measure
+  kanji: 策
 - index: 884
   'on': satsu, saku
   kun: ! '--------'
   english: counter for books
+  kanji: 冊
 - index: 885
   'on': san
   kun: kaiko
   english: silkworm
+  kanji: 蚕
 - index: 886
   'on': shi
   kun: ita(ru)
   english: to come to
+  kanji: 至
 - index: 887
   'on': shi
   kun: watakushi
   english: private, I
+  kanji: 私
 - index: 888
   'on': shi
   kun: sugata
   english: figure
+  kanji: 姿
 - index: 889
   'on': shi
   kun: ! '--------'
   english: to regard, eyesight
+  kanji: 視
 - index: 890
   'on': shi
   kun: ! '--------'
   english: words
+  kanji: 詞
 - index: 891
   'on': shi
   kun: ! '--------'
   english: magazine
+  kanji: 誌
 - index: 892
   'on': ji
   kun: ! '--------'
   english: magnetism
+  kanji: 磁
 - index: 893
   'on': sha
   kun: i(ru)
   english: to shoot
+  kanji: 射
 - index: 894
   'on': sha
   kun: su(teru)
   english: to discard
+  kanji: 捨
 - index: 895
   'on': shaku
   kun: ! '--------'
   english: shaku
+  kanji: 尺
 - index: 896
   'on': jaku, nyaku
   kun: waka(i), mo(shikuwa)
   english: young
+  kanji: 若
 - index: 897
   'on': ju
   kun: ki
   english: standing tree
+  kanji: 樹
 - index: 898
   'on': shuu
   kun: osa(meru), osa(maru)
   english: to take in
+  kanji: 収
 - index: 899
   'on': shuu, sou
   kun: mune
   english: religious sect
+  kanji: 宗
 - index: 900
   'on': shuu, ju
   kun: tsu(ku), tsu(keru)
   english: to set about
+  kanji: 就
 - index: 901
   'on': shuu, shu
   kun: ! '--------'

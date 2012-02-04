@@ -7,7 +7,7 @@ task :deploy do
 end
 
 desc "sync the code with the testing ground"
-task :push_to_test do
+task :push_test => [:build] do
   sh %{rsync -avz ./* ubuntu@davidpmah.com:~/test/kanji/}
 end
 
