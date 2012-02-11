@@ -4503,402 +4503,502 @@
   'on': shuu, shu
   kun: ! '--------'
   english: multitude
+  kanji: 衆
 - index: 902
   'on': juu, shou, ju
   kun: shitaga(u), shitaga(eru)
   english: to follow
+  kanji: 従
 - index: 903
   'on': juu
   kun: tate
   english: vertical
+  kanji: 縦
 - index: 904
   'on': shuku
   kun: chiji(mu), chiji(reru)
   english: to shrink
+  kanji: 縮
 - index: 905
   'on': juku
   kun: u(reru)
   english: mature
+  kanji: 熟
 - index: 906
   'on': jun
   kun: ! '--------'
   english: pure
+  kanji: 純
 - index: 907
   'on': sho
   kun: tokoro
   english: to deal with
+  kanji: 処
 - index: 908
   'on': sho
   kun: ! '--------'
   english: public-service station
+  kanji: 署
 - index: 909
   'on': sho
   kun: moro
   english: various
+  kanji: 諸
 - index: 910
   'on': jo, ji
   kun: nozo(ku)
   english: to rid of
+  kanji: 除
 - index: 911
   'on': shou
   kun: ! '--------'
   english: general officer
+  kanji: 将
 - index: 912
   'on': shou
   kun: kizu, ita(mu)
   english: wound
+  kanji: 傷
 - index: 913
   'on': shou
   kun: sawa(ru)
   english: hindrance
+  kanji: 障
 - index: 914
   'on': jou
   kun: shiro
   english: castle
+  kanji: 城
 - index: 915
   'on': jou
   kun: mu(su), mu(reru)
   english: steam, evaporate
+  kanji: 蒸
 - index: 916
   'on': shin
   kun: hari
   english: needle
+  kanji: 針
 - index: 917
   'on': jin, ni
   kun: ! '--------'
   english: benevolence
+  kanji: 仁
 - index: 918
   'on': sui
   kun: ta(reru), ta(rasu)
   english: to hang down
+  kanji: 垂
 - index: 919
   'on': sui
   kun: o(su)
   english: to infer
+  kanji: 推
 - index: 920
   'on': sun
   kun: ! '--------'
   english: a bit of
+  kanji: 寸
 - index: 921
   'on': sei, jou
   kun: mo(ru), saka(ru)
   english: prosperous, to pile
+  kanji: 盛
 - index: 922
   'on': sei
   kun: hijiri
   english: holy, saint
+  kanji: 聖
 - index: 923
   'on': sei
   kun: makoto
   english: sincerity
+  kanji: 誠
 - index: 924
   'on': sen
   kun: ! '--------'
   english: to proclaim
+  kanji: 宣
 - index: 925
   'on': sen
   kun: moppa(ra)
   english: exclusive
+  kanji: 専
 - index: 926
   'on': sen
   kun: izumi
   english: spring
+  kanji: 泉
 - index: 927
   'on': sen
   kun: ara(u)
   english: to wash
+  kanji: 洗
 - index: 928
   'on': sen
   kun: so(meru), shi(miru)
   english: to dye, to be infected
+  kanji: 染
 - index: 929
   'on': zen
   kun: yo(i)
   english: good
+  kanji: 善
 - index: 930
   'on': sou
   kun: kana(deru)
   english: to play music
+  kanji: 奏
 - index: 931
   'on': sou
   kun: mado
   english: window
+  kanji: 窓
 - index: 932
   'on': sou
   kun: ! '--------'
   english: to create
+  kanji: 創
 - index: 933
   'on': sou, shou
   kun: yosoo(u)
   english: to dress, to fit out
+  kanji: 装
 - index: 934
   'on': sou
   kun: ! '--------'
   english: stratum
+  kanji: 層
 - index: 935
   'on': sou
   kun: misao, ayatsu(ru)
   english: to manipulate
+  kanji: 操
 - index: 936
   'on': zou
   kun: kura
   english: store
+  kanji: 蔵
 - index: 937
   'on': zou
   kun: ! '--------'
   english: internal organ
+  kanji: 臓
 - index: 938
   'on': son, zon
   kun: ! '--------'
   english: to exist
+  kanji: 存
 - index: 939
   'on': son
   kun: tatto(i), touto(i)
   english: to honor
+  kanji: 尊
 - index: 940
   'on': taku
   kun: ! '--------'
   english: dwelling house
+  kanji: 宅
 - index: 941
   'on': tan
   kun: katsu(gu), nina(u)
   english: to bear on shoulder, to undertake
+  kanji: 担
 - index: 942
   'on': tan
   kun: sagu(ru), saga(su)
   english: to probe, to search
+  kanji: 探
 - index: 943
   'on': tan
   kun: ! '--------'
   english: to be born
+  kanji: 誕
 - index: 944
   'on': dan
   kun: ! '--------'
   english: step
+  kanji: 段
 - index: 945
   'on': dan
   kun: atata(kai), atata(maru)
   english: warm
+  kanji: 暖
 - index: 946
   'on': chi
   kun: ne, atai
   english: value
+  kanji: 値
 - index: 947
   'on': chuu
   kun: ! '--------'
   english: space, midair
+  kanji: 宙
 - index: 948
   'on': chuu
   kun: ! '--------'
   english: loyalty
+  kanji: 忠
 - index: 949
   'on': cho
   kun: arawa(su), ichijiru(shii)
   english: author, conspicuous
+  kanji: 著
 - index: 950
   'on': chou
   kun: ! '--------'
   english: government agency
+  kanji: 庁
 - index: 951
   'on': chou
   kun: itada(ku), itadaki
   english: summit, to receive humbly
+  kanji: 頂
 - index: 952
   'on': chou
   kun: shio
   english: tide
+  kanji: 潮
 - index: 953
   'on': chin
   kun: ! '--------'
   english: wage, charges
+  kanji: 賃
 - index: 954
   'on': tsuu
   kun: ita(i), ita(mu)
   english: pain
+  kanji: 痛
 - index: 955
   'on': ten
   kun: ! '--------'
   english: to unfold, to display
+  kanji: 展
 - index: 956
   'on': tou
   kun: u(tsu)
   english: to study,  to suppers by armed force
+  kanji: 討
 - index: 957
   'on': tou
   kun: ! '--------'
   english: party
+  kanji: 党
 - index: 958
   'on': tou
   kun: ! '--------'
   english: sugar
+  kanji: 糖
 - index: 959
   'on': ! '--------'
   kun: todo(keru), todo(ku)
   english: to deliver, to reach
+  kanji: 届
 - index: 960
   'on': nan
   kun: kata(i), muzukashi(i)
   english: difficult, disaster
+  kanji: 難
 - index: 961
   'on': nyuu
   kun: chichi, chi
   english: milk, breast
+  kanji: 乳
 - index: 962
   'on': nin
   kun: mito(meru)
   english: to recognize
+  kanji: 認
 - index: 963
   'on': nou, nat~, nan, nou
   kun: osa(meru), osa(maru)
   english: to pay, to accept, to put away
+  kanji: 納
 - index: 964
   'on': nou
   kun: ! '--------'
   english: brain
+  kanji: 脳
 - index: 965
   'on': ha
   kun: ! '--------'
   english: sect, to dispatch
+  kanji: 派
 - index: 966
   'on': hai
   kun: oga(mu)
   english: to worship, humbly
+  kanji: 拝
 - index: 967
   'on': hai
   kun: se, sei, somu(ku)
   english: back
+  kanji: 背
 - index: 968
   'on': hai
   kun: ! '------'
   english: lung
+  kanji: 肺
 - index: 969
   'on': hai
   kun: ! '------'
   english: haiku
+  kanji: 俳
 - index: 970
   'on': han
   kun: ! '------'
   english: squad
+  kanji: 班
 - index: 971
   'on': ban
   kun: ! '------'
   english: evening
+  kanji: 晩
 - index: 972
   'on': hi
   kun: ina
   english: say no, or not
+  kanji: 否
 - index: 973
   'on': hi
   kun: ! '--------'
   english: to criticize
+  kanji: 批
 - index: 974
   'on': hi
   kun: hi(meru)
   english: secret
+  kanji: 秘
 - index: 975
   'on': fuku
   kun: hara
   english: belly
+  kanji: 腹
 - index: 976
   'on': fun
   kun: furu(u)
   english: to rouse up
+  kanji: 奮
 - index: 977
   'on': hei
   kun: nami, nara(beru)
   english: to line up, medium quality, row
+  kanji: 並
 - index: 978
   'on': hei
   kun: ! '--------'
   english: imperial palace steps
+  kanji: 陛
 - index: 979
   'on': hei
   kun: to(jiru), shi(meru)
   english: to close
+  kanji: 閉
 - index: 980
   'on': hen
   kun: kata
   english: fragment, one of two
+  kanji: 片
 - index: 981
   'on': ho
   kun: ogina(u)
   english: supplement, to assign, to assist
+  kanji: 補
 - index: 982
   'on': bo
   kun: ku(reru), ku(rasu)
   english: dusk, to live
+  kanji: 暮
 - index: 983
   'on': hou
   kun: takara
   english: treasure
+  kanji: 宝
 - index: 984
   'on': hou
   kun: otozu(reru), tazu(neru)
   english: to visit
+  kanji: 訪
 - index: 985
   'on': bou, mou
   kun: na(i), na(ki)~
   english: to decease, to flee
+  kanji: 亡
 - index: 986
   'on': bou
   kun: wasu(reru)
   english: to forget
+  kanji: 忘
 - index: 987
   'on': bou
   kun: ! '--------'
   english: rod, straight, fellow
+  kanji: 棒
 - index: 988
   'on': mai
   kun: ! '--------'
   english: counter for flat things
+  kanji: 枚
 - index: 989
   'on': maku, baku
   kun: ! '--------'
   english: curtain, shogunate
+  kanji: 幕
 - index: 990
   'on': mitsu
   kun: ! '--------'
   english: close, secret
+  kanji: 密
 - index: 991
   'on': mei
   kun: ! '--------'
   english: alliance
+  kanji: 盟
 - index: 992
   'on': mo, bo
   kun: ! '--------'
   english: pattern
+  kanji: 模
 - index: 993
   'on': yaku
   kun: wake
   english: to translate, sense
+  kanji: 訳
 - index: 994
   'on': yuu
   kun: ! '--------'
   english: to mail
+  kanji: 郵
 - index: 995
   'on': yuu
   kun: yasa(shii), sugu(reru)
   english: superior, actor
+  kanji: 優
 - index: 996
   'on': you
   kun: osana(i)
   english: very young
+  kanji: 幼
 - index: 997
   'on': yoku
   kun: hos(suru), ho(shii)
   english: to desire
+  kanji: 欲
 - index: 998
   'on': yoku
   kun: ! '--------'
   english: the following
+  kanji: 翌
 - index: 999
   'on': ran
   kun: mida(reru), mida(su)
   english: disordered
+  kanji: 乱
 - index: 1000
   'on': ran
   kun: tamago
   english: egg
+  kanji: 卵
 - index: 1001
   'on': ran
   kun: ! '--------'
